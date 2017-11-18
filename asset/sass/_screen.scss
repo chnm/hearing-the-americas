@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:active,
+a:hover {
+    color: $bold;
+}
+
+h1 {
+    font-size: 2 * $base-font-size;
+    line-height: 2 * $base-line-height;
+}
+
+h2 {
+    font-size: 1.5 * $base-font-size;
+    line-height: 1.5 * $base-line-height;
+}
+
+h3 {
+    font-size: 1.25 * $base-font-size;
+    line-height: 1.5 * $base-line-height;
+}
+
+h4 {
+    font-size: 1.125 * $base-font-size;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* @group ----- Forms ----- */
+
+input,
+textarea,
+button,
+.button,
+select {
+    font-family: "Open Sans", sans-serif;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    margin: 0;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+textarea {
+    appearance: none;
+    border-radius: 0;
+    height: 1.5 * $spacing-l;
+    border: 1px solid $light;
+    padding: ($spacing-s - 1px) gutter();
+    margin: 0;
+}
+
+textarea {
+    height: 3 * $spacing-l;
+}
+
+input[type="file"] {
+    line-height: 1;
+    vertical-align: bottom;
+    font-size: .75 * $base-font-size;
+}
+
+button,
+a.button,
+[type="submit"] {
+    background-color: $light;
+    border-radius: 2px;
+    padding: $spacing-s;
+    display: inline-block;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0;
+    cursor: pointer;
+}
+
+select {
+    background-color: #fff;
+    padding: .5 * $spacing-s;
+    border-color: $light;
+    height: 1.5 * $spacing-l;
+    border: 1px solid $gray;
+    font-size: .75 * $base-font-size;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic;
+}
+
+:-ms-input-placeholder {
+   font-style: italic;
+}
+
+.field {
+    margin: $spacing-l 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.field .field-meta {
+    width: 30%;
+    padding: $spacing-s gutter() 0 0;
+}
+
+.field .inputs {
+    width: 70%;
+    padding-left: gutter();
+
+    & > select,
+    & > textarea,
+    & > input[type="text"],
+    & > input[type="password"],
+    & > input[type="email"],
+    & > input[type="url"] {
+        width: 100%;
+    }
+
+    input[type="checkbox"] {
+        vertical-align: bottom;
+    }
+}
+
+.field.required .field-meta:after {
+    content: "\f069";
+    font-family: "FontAwesome";
+    font-size: .75 * $base-font-size;
+}
+
+.field .value:not(:last-child) {
+    margin-bottom: $spacing-m;
+}
+
+.field-description {
+    font-size: .75 * $base-font-size;
+}
+
+/* @end */
+
+/* @group ----- Header ----- */
+
+header {
+    background-color: #000;
+    color: #fff;
+    font-size: .75 * $base-font-size;
+}
+
+header a {
+    color: #fff !important;
+}
+
+a.site-title {
+    display: block;
+}
+
+.site-title h1 {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    margin: $spacing-m 0;
+}
+
+#search-form {
+    display: flex;
+    margin: $spacing-m 0;
+}
+
+#search-form button[type="submit"] {
+    height: 1.5 * $base-line-height;
+    width: 1.5 * $base-line-height;
+    text-indent: -9999px;
+    position: relative;
+    background-color: transparent;
+    color: #fff;
+
+    &:before {
+        content: "\f002";
+        font-family: "FontAwesome";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        text-indent: 0;
+        line-height: 1.5 * $base-line-height;
+    }
+}
+
+/* @end */
+
+/* @group ----- Item/Show ----- */
+
+.item.show h2 + h3 {
+    display: none;
+}
+
+.property .resource-link {
+    display: flex;
+}
+
+.property .resource-link img {
+    height: 1.5 * $spacing-l;
+    width: auto;
+    margin: (-1 * $spacing-s) $spacing-m 0 0;
+}
+
+/* @end */
+
+/* @group ----- Pages ----- */
+
+.blocks {
+    padding: 0 $spacing-l;
+}
+
+.file a,
+.item-showcase a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.item-showcase h3,
+.file h3 {
+    margin-top: 0;
+    font-size: .75 * $base-font-size;
+    line-height: $base-line-height;
+}
+
+/* @end */
