@@ -2,6 +2,7 @@
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    width: 60%;
 }
 
 #content {
@@ -26,6 +27,10 @@ td {
 header {
     display: flex;
     padding: $spacing-s $spacing-l;
+}
+
+.site-title h1 {
+    margin: $spacing-m $spacing-m 0 0;
 }
 
 #search {
@@ -57,12 +62,6 @@ header nav {
     position: static;
 }
 
-header nav:before {
-    content: "";
-    border: 0;
-    display: none;
-}
-
 header nav ul a {
     padding: 0;
 }
@@ -90,10 +89,7 @@ header nav > ul ul:hover > li {
 header nav ul.navigation {
     margin: 0;
     position: static;
-
-    li ul:before {
-        display: none;
-    }
+    columns: none;
 
     & > li {
         display: inline-block;
@@ -102,58 +98,6 @@ header nav ul.navigation {
     & > li:not(:last-child) {
         margin-right: $spacing-m;
     }
-
-    & > li > ul {
-        position: absolute;
-        top: 100%;
-        left: -9999px;
-        background-color: #fff;
-        padding: 0;
-        list-style: none;
-        width: 100%;
-        border: solid $gray;
-        border-width: 1px 0;
-        padding: ($spacing-m - 1px) 0 ($spacing-s - 1px);
-        display: flex;
-        flex-direction: row;
-        flex-flow: row wrap;
-        z-index: 1;
-    }
-
-    & > li:hover > ul {
-        @include container;
-        padding: $spacing-m (2 * gutter());
-        left: 0;
-        right: 0;
-        border-bottom: 0;
-        border-color: $light;
-
-        &:after {
-            content: "";
-            left: -9999px;
-            right: -9999px;
-            background-color: #fff;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            border-bottom: 1px solid $light;
-            z-index: -1;
-        }
-    }
-
-    & > li > ul > li {
-        width: 25%;
-        font-size: .75 * $base-font-size;
-        font-weight: bold;
-        padding-bottom: $spacing-l;
-    }
-
-    & > li > ul > li ul {
-        font-weight: normal;
-        padding: 0;
-        list-style-type: none;
-        height: auto;
-    }
 }
 
 header nav > ul > li > a {
@@ -161,47 +105,11 @@ header nav > ul > li > a {
     height: $base-line-height;
 }
 
-/* All top-level nav items with siblings are parent items and get an arrow. */
-header nav > ul > li > a:not(:only-child):after {
-    font-family: "FontAwesome";
-    content: "\f107";
-    display: inline-block;
-    margin-left: $spacing-s;
-}
-
-header nav > ul li:hover ul li {
-    height: auto;
-    padding: 0;
-}
-
-/* Second and Third level items */
-header nav > ul > li > ul > li a,
-header nav > ul > li > ul > li > ul > li a {
-    padding-left: 0;
-}
-
-.sub-menu ul {
-    border-bottom: 1px solid $light;
-    padding-bottom: ($spacing-m - 1px);
-}
-
-.sub-menu li {
-    display: inline-block;
-    border: 0;
-    padding: 0;
-    margin-right: $spacing-m;
-
-    &:first-of-type {
-        border: 0;
-        padding: 0;
-    }
-}
-
 /* @end */
 
 /* @group ----- Resource List ----- */
 
-ul.resource-list .resource img {
+/* ul.resource-list .resource img {
     width: 4 * $spacing-l;
     height: auto;
     float: right;
@@ -210,6 +118,21 @@ ul.resource-list .resource img {
 
 ul.resource-list .resource img ~ * {
     width: calc(100% - #{4.5 * $spacing-l});
+} */
+
+ul.resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+ul.resource-list li {
+    width: 20%;
+    padding: 0 $spacing-l 0 0;
+
+    &:nth-child(5n) {
+        padding: 0;
+    }
 }
 
 /* @end */
@@ -220,38 +143,85 @@ ul.resource-list .resource img ~ * {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto $spacing-l 0;
-    width: 70%;
+    width: 100%;
 }
 
 .property h4 {
-    width: 30%;
+    width: 20%;
     padding-right: $spacing-m;
     margin: 0;
-    text-align: right;
+    min-width: 5 * $spacing-l;
 }
 
 .property .values {
-    width: 70%;
+    width: 80%;
     padding-left: $spacing-m;
+    max-width: calc(100% - #{5 * $spacing-l});
 }
 
 .media-embeds {
-    width: 30%;
-    float: right;
-    padding: 0 0 (2 * $spacing-l) $spacing-l;
+    width: 20%;
+    float: left;
+    padding: $spacing-l $spacing-l $spacing-l 0;
 
     &.audio {
-        width: 100%;
         float: none;
         padding: 0;
+        @include constraint;
     }
 }
 
+.item-head,
+.item-description {
+    @include constraint;
+}
+
+.person.show .item-metadata {
+    display: none;
+}
+
+.item-metadata {
+    @include constraint;
+}
+
+/* .item-metadata {
+    float: right;
+    width: 20%;
+    padding-left: $spacing-m;
+    border-left: 5px solid #eee;
+}
+
+.item-metadata .property {
+    margin-bottom: $spacing-m;
+}
+
+.item-metadata .property .values {
+    max-width: none;
+    width: 100%;
+    padding: 0;
+}
+
+.item-metadata h4 {
+    font-size: .75 * $base-font-size;
+    min-width: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.item-metadata .property .resource-link {
+    align-items: center;
+}
+
+.item-metadata .property .resource-link img {
+    margin: 0 $spacing-m 0 0;
+} */
+
 #item-linked {
-    clear: both;
+    // clear: both;
     border-top: 1px solid $gray;
     margin-top: $spacing-l;
     padding: $spacing-l 0;
+    @include constraint;
 }
 
 #linked-resources {
@@ -278,19 +248,6 @@ ul.resource-list .resource img ~ * {
 .linked-resource {
     width: 25%;
     margin: 0 $spacing-l $spacing-l 0;
-}
-
-.linked-resource span {
-    width: 100%;
-    display: block;
-}
-
-.linked-resource .resource-link {
-    font-weight: bold;
-}
-
-.property-relation {
-    font-size: .75 * $base-font-size;
 }
 
 /* @end */
@@ -346,8 +303,6 @@ body.item-set .metadata ~ nav.pagination:first-of-type {
 .blocks > p,
 .blocks > ul {
     @include constraint;
-    width: 60%;
-
 }
 
 .preview-block {
@@ -356,11 +311,6 @@ body.item-set .metadata ~ nav.pagination:first-of-type {
 
 .break {
     width: 100%;
-}
-
-ul.preview.resource-list li:first-of-type {
-    border-top: 1px solid $light;
-    padding-top: ($spacing-l - 1px);
 }
 
 .file {
@@ -389,5 +339,85 @@ ul.preview.resource-list li:first-of-type {
 .item-showcase .item-resource {
     margin: $spacing-l auto;
 }
+
+/* @end */
+
+/* @group ----- Home ----- */
+
+.home.page .blocks {
+    padding: $spacing-l 0;
+}
+
+.home.page .blocks > div:first-child {
+    width: calc(50% - #{$spacing-m});
+    font-size: 1.25 * $base-font-size;
+    line-height: 1.5 * $base-line-height;
+    padding: $spacing-l !important;
+    margin-right: $spacing-m;
+    margin-bottom: $spacing-l;
+    float: left;
+    height: 11 * $spacing-l;
+}
+
+.home.page .blocks > div:nth-child(2),
+.home.page .blocks > div:nth-child(3) {
+    width: calc(50% - #{$spacing-m});
+    margin-bottom: $spacing-l;
+    float: right;
+    position: relative;
+    padding: $spacing-l !important;
+    height: 5 * $spacing-l;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        width: 5 * $spacing-l;
+        height: 5 * $spacing-l;
+        display: block;
+        float: left;
+        background: #999;
+        margin: (-$spacing-l) $spacing-l (-$spacing-l) (-$spacing-l);
+    }
+        
+}
+
+.home.page .blocks > div:nth-child(4) {
+    width: 100%;
+    padding: $spacing-l !important;
+    text-align: center;
+    margin-bottom: $spacing-l;
+    clear: both;
+}
+
+.home.page .left.file {
+    width: 100%;
+    float: none;
+}
+
+.home.page .left.file .attachments {
+    display: flex;
+}
+
+.home.page .left.file .attachments .resource {
+    width: 33.33%;
+    padding: $spacing-l;
+    border: 1px solid #eee;
+    border-width: 1px 0 1px 1px;
+
+    &:last-child {
+        border-right-width: 1px;
+    }
+}
+
+.home.page .left.file h3 {
+    margin-top: $spacing-s;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+.home.page .file a {
+    text-align: left;
+}
+
 
 /* @end */

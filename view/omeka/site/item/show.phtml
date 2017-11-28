@@ -1,15 +1,13 @@
 <?php
 $escape = $this->plugin('escapeHtml');
-$this->htmlElement('body')->appendAttribute('class', 'item resource show');
+$resourceTemplate = $item->resourceTemplate();
+$resourceTemplateLabel = ($resourceTemplate) ? $resourceTemplate->label() : '';
+$this->htmlElement('body')->appendAttribute('class', 'item resource show ' . lcfirst($resourceTemplateLabel));
 $embedMedia = $this->siteSetting('item_media_embed', false);
 $itemMedia = $item->media();
 ?>
 
-<?php echo $this->pageTitle($item->displayTitle(), 2); ?>
-<h3><?php echo $this->translate('Item'); ?></h3>
-<?php $this->trigger('view.show.before'); ?>
 <?php if ($embedMedia && $itemMedia): ?>
-    <?php $resourceTemplate = $item->resourceTemplate(); ?>
     <?php if ($resourceTemplate && ($resourceTemplate->label() == 'Recording')): ?>
     <div class="audio media-embeds">
     <?php else: ?>
@@ -21,16 +19,14 @@ $itemMedia = $item->media();
     ?>
     </div>
 <?php endif; ?>
-<?php echo $item->displayValues(); ?>
-<div class="property">
-    <?php $itemSets = $item->itemSets(); ?>
-    <?php if (count($itemSets) > 0): ?>
-    <h4><?php echo $this->translate('Item sets'); ?></h4>
-    <?php foreach ($item->itemSets() as $itemSet): ?>
-    <div class="value"><a href="<?php echo $escape($itemSet->url()); ?>"><?php echo $itemSet->displayTitle(); ?></a></div>
-    <?php endforeach; ?>
-    <?php endif; ?>
+<div class="item-head">
+<?php echo $this->pageTitle($item->displayTitle(), 2); ?>
+<?php echo ($itemRole = $item->value('dcterms:type')) ? '<span class="role">' . $itemRole . '</span>': ''; ?>
 </div>
+
+<?php $this->trigger('view.show.before'); ?>
+<div class="item-metadata"><?php echo $item->displayValues(); ?></div>
+<?php echo ($itemDescription = '<div class="item-description">' . $item->value('dcterms:description') . '</div>') ? $itemDescription : ''; ?>
 <?php if (!$embedMedia && $itemMedia): ?>
 <div class="media-list">
     <?php foreach ($itemMedia as $media): ?>
@@ -38,7 +34,6 @@ $itemMedia = $item->media();
     <?php endforeach; ?>
 </div>
 <?php endif; ?>
-
 <?php
 $page = $this->params()->fromQuery('page', 1);
 $property = $this->params()->fromQuery('property');
