@@ -10,12 +10,16 @@ $headingTerm = $this->siteSetting('browse_heading_property_term', 'dcterms:title
 $bodyTerm = $this->siteSetting('browse_body_property_term', 'dcterms:description');
 foreach ($this->items as $item):
     $heading = $item->value($headingTerm, ['default' => $this->translate('[Untitled]')]);
-    $body = $item->value($bodyTerm);
+    $genres = $item->value('dcterms:subject', ['all' => true]);
 ?>
     <li class="item resource">
         <h4><?php echo $item->linkPretty('medium'); ?></h4>
-        <?php if ($body): ?>
-        <div class="description"><?php echo $body; ?></div>
+        <?php if (count($genres) > 0): ?>
+            <ul class="genres">
+            <?php foreach ($genres as $genre): ?>
+                <li><?php echo $genre; ?></li>
+            <?php endforeach; ?>
+            </ul>
         <?php endif; ?>
     </li>
 <?php endforeach; ?>

@@ -302,6 +302,32 @@ header nav ul.navigation > li > ul {
 
 /* @end */
 
+/* @group ----- Item/Browse ----- */
+
+ul.resource-list .genres {
+    padding-left: 0;
+    list-style: none;
+    margin: (-$spacing-s) 0 0;
+}
+
+ul.resource-list .genres li {
+    width: auto;
+    font-size: .625 * $base-font-size;
+    line-height: .5 * $base-line-height;
+    display: inline-block;
+    padding: 0;
+    text-transform: uppercase;
+
+    &:not(:last-child):after {
+        content: " // ";
+        color: #000;
+        display: inline-block;
+        margin: 0 (.5 * $spacing-s) 0 $spacing-s;
+    }
+}
+
+/* @end */
+
 /* @group ----- Pages ----- */
 
 .sub-menu {
@@ -361,7 +387,7 @@ ul.resource-list {
 }
 
 ul.resource-list h4 {
-    margin-top: $spacing-s;
+    margin: $spacing-s 0 0;
     font-size: .75 * $base-font-size;
 }
 
