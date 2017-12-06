@@ -12,11 +12,32 @@ $gray:                                  #ababab;
 $bold:                                  darken($gray, 20%);
 $light:                                 lighten($gray, 20%);
 $bg:                                    lighten($gray, 30%);
+$link-red:                              #b13a1a;
+$pink:                                  #f1957c;
+$green:                                 #c4e19c;
+$yellow:                                #feffb4;
+$blue:                                  #97d1eb;
+$brown:                                 #3a2e2e;
 
 // Typography
 
 $base-font-size:                        20px;
 $base-line-height:                      30px;
+$heading-font-family:                   "League Spartan", sans-serif;
+$heading-font-family-small:             "Montserrat", sans-serif;
+$copy-font-family:                      "Crimson Text", serif;
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/asset/font/leaguespartan-bold.eot');
+    src: url('/asset/font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('/asset/font/leaguespartan-bold.woff2') format('woff2'),
+         url('/asset/font/leaguespartan-bold.woff') format('woff'),
+         url('/asset/font/leaguespartan-bold.ttf') format('truetype'),
+         url('/asset/font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
 // Units
 

@@ -9,44 +9,54 @@ html {
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: $copy-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     margin: 0;
     word-wrap: break-word;
+    background-color: #eee8df;
+    color: $brown;
 }
 
 a:link {
     text-decoration: none;
-    color: #000;
+    color: $link-red;
 }
 
 a:visited {
-    color: #000;
+    color: $link-red;
 }
 
 a:active,
 a:hover {
-    color: $bold;
+    color: lighten($link-red, 10%);
+}
+
+h1, h2, h3 {
+    font-family: $heading-font-family;
+}
+
+h4, h5, h6 {
+    font-family: $heading-font-family-small;
 }
 
 h1 {
-    font-size: 2 * $base-font-size;
+    font-size: 1.5 * $base-font-size;
     line-height: 2 * $base-line-height;
 }
 
 h2 {
-    font-size: 1.5 * $base-font-size;
-    line-height: 1.5 * $base-line-height;
-}
-
-h3 {
     font-size: 1.25 * $base-font-size;
     line-height: 1.5 * $base-line-height;
 }
 
-h4 {
+h3 {
     font-size: 1.125 * $base-font-size;
+    line-height: 1.5 * $base-line-height;
+}
+
+h4 {
+    font-size: $base-font-size;
 }
 
 img {
@@ -187,14 +197,13 @@ select {
 /* @group ----- Header ----- */
 
 header {
-    background-color: #000;
-    color: #fff;
     font-size: .75 * $base-font-size;
     padding: $spacing-l;
+    background-color: #fff;
 }
 
 header a {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 a.site-title {
@@ -243,6 +252,7 @@ header nav ul.navigation {
     padding-left: 0;
     columns: 2;
     text-align: center;
+    font-family: $heading-font-family-small;
 }
 
 header nav ul.navigation > li > ul {
@@ -314,6 +324,7 @@ ul.resource-list .genres li {
     width: auto;
     font-size: .625 * $base-font-size;
     line-height: .5 * $base-line-height;
+    font-family: $heading-font-family;
     display: inline-block;
     padding: 0;
     text-transform: uppercase;
@@ -352,7 +363,7 @@ ul.resource-list .genres li {
     top: -($spacing-l);
     left: -9999px;
     right: -9999px;
-    background-color: #ccc;
+    //background-color: #ccc;
     bottom: 0;
     z-index: -1;
 }
