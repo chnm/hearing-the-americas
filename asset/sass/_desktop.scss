@@ -42,7 +42,8 @@ header {
 }
 
 #search-form:not(.open) input[type="text"] {
-    display: none;
+    border: 0;
+    border-bottom: 1px solid $brown;  
 }
 
 /* @end */
@@ -89,7 +90,7 @@ header nav > ul ul:hover > li {
 header nav ul.navigation {
     margin: 0;
     position: static;
-    columns: none;
+    columns: auto;
 
     & > li {
         display: inline-block;
@@ -349,75 +350,135 @@ body.item-set .metadata ~ nav.pagination:first-of-type {
 }
 
 .home.page .blocks > div:first-child {
+    width: calc(75% - #{$spacing-m});
+    float: left;
+    position: relative;
+
+    .attachments {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.home.page .blocks > div:first-child .item.resource {
+    display: flex;
+    background: #fff;
+    padding: 0;
     width: calc(50% - #{$spacing-m});
+    overflow: hidden;
+    margin-bottom: $spacing-l;
+
+    &:nth-child(2n) {
+        margin-left: $spacing-l;
+    }
+}
+
+.home.page .blocks > div:first-child .item.resource .caption {
+    padding: $spacing-m $spacing-l;
+}
+
+.home.page .blocks > div:first-child .item.resource h3 {
+    margin: 0;
+}
+
+.home.page .blocks > div:first-child .item.resource h3 + p {
+    margin: 0;
+}
+
+.home.page .blocks > div:first-child .item.resource img {
+    vertical-align: bottom;
+    height: 5 * $spacing-l;
+    width: 5 * $spacing-l;
+    max-width: none;
+}
+
+.home.page .blocks > .intro {
+    width: calc(25% - #{$spacing-m});
     font-size: 1.25 * $base-font-size;
     line-height: 1.5 * $base-line-height;
-    padding: $spacing-l !important;
-    margin-right: $spacing-m;
     margin-bottom: $spacing-l;
-    float: left;
+    float: right;
     height: 11 * $spacing-l;
 }
 
-.home.page .blocks > div:nth-child(2),
-.home.page .blocks > div:nth-child(3) {
-    width: calc(50% - #{$spacing-m});
-    margin-bottom: $spacing-l;
-    float: right;
-    position: relative;
-    padding: $spacing-l !important;
-    height: 5 * $spacing-l;
-    overflow: hidden;
+.home.page .blocks > .intro strong {
+    font-family: $heading-font-family;
+}
 
-    &:before {
-        content: "";
-        width: 5 * $spacing-l;
-        height: 5 * $spacing-l;
-        display: block;
-        float: left;
-        background: #999;
-        margin: (-$spacing-l) $spacing-l (-$spacing-l) (-$spacing-l);
-    }
-        
+.home.page .playlist {
+    width: 100%;
+    clear: both;
+    font-family: $heading-font-family;
+    text-align: center;
+    background-color: #fff;
+    padding: $spacing-l;
 }
 
 .home.page .blocks > div:nth-child(4) {
     width: 100%;
-    padding: $spacing-l !important;
-    text-align: center;
-    margin-bottom: $spacing-l;
+    margin: $spacing-l 0;
     clear: both;
+
+    .attachments {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
-.home.page .left.file {
-    width: 100%;
-    float: none;
-}
-
-.home.page .left.file .attachments {
-    display: flex;
-}
-
-.home.page .left.file .attachments .resource {
-    width: 33.33%;
-    padding: $spacing-l;
+.home.page .left.file:nth-child(4) .attachments .resource {
+    width: calc(33.33% - #{$spacing-l});
     border: 1px solid #eee;
-    border-width: 1px 0 1px 1px;
+    background-color: #fff;
 
     &:last-child {
         border-right-width: 1px;
     }
+
+    .caption {
+        padding: 0 $spacing-l;
+    }
+
+    .caption p {
+        margin-top: 0;
+    }
+
+    img {
+        vertical-align: bottom;
+    }
+
+    .media-render {
+        position: relative;
+    }
+
+    .media-render:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: transparentize($pink, .8);
+    }
+
+    &:nth-child(2) .media-render:before {
+        background-color: transparentize($blue, .8);
+    }
+
+    &:nth-child(3) .media-render:before {
+        background-color: transparentize($green, .8);
+    }
 }
 
-.home.page .left.file h3 {
-    margin-top: $spacing-s;
+.home.page .left.file:nth-child(4) h3 {
+    margin-top: $spacing-l;
     font-size: $base-font-size;
     line-height: $base-line-height;
+    margin-bottom: 0;
 }
 
-.home.page .file a {
+.home.page .left.file:nth-child(4) h3 a {
     text-align: left;
+    padding: 0 $spacing-l;
 }
-
 
 /* @end */
