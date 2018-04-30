@@ -29,12 +29,12 @@ $copy-font-family:                      "Crimson Text", serif;
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('/asset/font/leaguespartan-bold.eot');
-    src: url('/asset/font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-         url('/asset/font/leaguespartan-bold.woff2') format('woff2'),
-         url('/asset/font/leaguespartan-bold.woff') format('woff'),
-         url('/asset/font/leaguespartan-bold.ttf') format('truetype'),
-         url('/asset/font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    src: url('../../asset/font/leaguespartan-bold.eot');
+    src: url('../../asset/font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../../asset/font/leaguespartan-bold.woff2') format('woff2'),
+         url('../../asset/font/leaguespartan-bold.woff') format('woff'),
+         url('../../asset/font/leaguespartan-bold.ttf') format('truetype'),
+         url('../../asset/font/leaguespartan-bold.svg#league_spartanbold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
