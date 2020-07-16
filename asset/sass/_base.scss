@@ -1,7 +1,7 @@
 // Susy
 
 $susy: (
-    columns:                            12,
+    columns:                            susy-repeat(12),
     container:                          1700px,
     global-box-sizing:                  border-box
 );

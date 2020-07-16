@@ -1,4 +1,4 @@
-@mixin constraint {
+  @mixin constraint {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +51,7 @@ header {
 /* @group ----- Footer ----- */
 
 footer {
-    padding: 0 (2 * gutter()) $spacing-l;
+    padding: 0 (2 * $spacing-s) $spacing-l;
 }
 
 /* @end */
@@ -270,8 +270,8 @@ body.item-set #content {
 body.item-set .metadata {
     width: span(4 of 12 alpha);
     border-left: 5px solid $light;
-    padding-left: gutter();
-    margin-right: gutter();
+    padding-left: $spacing-s;
+    margin-right: $spacing-s;
 }
 
 body.item-set .metadata h4:first-of-type {
@@ -281,7 +281,7 @@ body.item-set .metadata h4:first-of-type {
 body.item-set #content .metadata ~ * {
     width: span(8 of 12 omega);
     border-left: 1px solid $light;
-    padding-left: gutter();
+    padding-left: $spacing-s;
 }
 
 body.item-set .item-set-items h3 {
