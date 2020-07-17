@@ -311,7 +311,8 @@ body.item-set .metadata ~ nav.pagination:first-of-type {
 }
 
 .break {
-    width: 100%;
+    max-width: 700px;
+    margin: $spacing-l auto;
 }
 
 .file {

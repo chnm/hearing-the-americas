@@ -192,6 +192,8 @@ select {
     font-size: .75 * $base-font-size;
 }
 
+
+
 /* @end */
 
 /* @group ----- Header ----- */
@@ -346,6 +348,15 @@ ul.resource-list .genres li {
 
 /* @group ----- Pages ----- */
 
+.break {
+  clear: both;
+  margin: $spacing-l 0;
+}
+
+.break.opaque {
+  border-top: 1px solid $brown;
+}
+
 .sub-menu {
     display: none;
 }
@@ -424,10 +435,18 @@ ul.resource-list li {
     display: none;
 }
 
-[href*="loc.gov"]:after {
-  content: url(/img/loc-icon.svg);
-  height: $base-line-height;
-  width: auto;
+[href*="loc.gov/jukebox"]:after {
+  content: url(../img/loc-icon.svg);
+  width: 12px;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+[href*="ucsb.edu"]:after {
+  content: url(../img/ucsb-icon.svg);
+  width: 20px;
+  display: inline-block;
+  margin-left: 6px;
 }
 
 /* @end */
