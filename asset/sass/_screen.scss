@@ -180,7 +180,7 @@ select {
 
 .field.required .field-meta:after {
     content: "\f069";
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     font-size: .75 * $base-font-size;
 }
 
@@ -239,7 +239,7 @@ a.site-title {
 
     &:before {
         content: "\f002";
-        font-family: "FontAwesome";
+        font-family: "Font Awesome 5 Free";
         position: absolute;
         top: 0;
         left: 0;
@@ -453,18 +453,18 @@ ul.resource-list li {
 
 /* @group ----- Trivia browse ----- */
 
-.trivia.page .blocks {
+.spins.page .blocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.trivia.page .blocks h2 {
+.spins.page .blocks h2 {
     width: 100%;
     max-width: none;
 }
 
-.trivia.page .blocks p {
+.spins.page .blocks p {
     width: calc(25% - #{$spacing-l});
     margin: 0 $spacing-m;
     padding: 0 0 calc(25% - #{$spacing-l});
@@ -516,7 +516,7 @@ ul.resource-list li {
     }
 }
 
-.trivia.page .blocks p a {
+.spins.page .blocks p a {
     position: absolute;
     top: 0;
     bottom: 0;
