@@ -454,14 +454,14 @@ ul.resource-list li {
     display: none;
 }
 
-[href*="loc.gov/jukebox"]:after {
+[href*="loc.gov/jukebox/recordings"]:after {
   content: url(../img/loc-icon.svg);
   width: 12px;
   display: inline-block;
   margin-left: 6px;
 }
 
-[href*="ucsb.edu"]:after {
+[href*="ucsb.edu/OBJID"]:after {
   content: url(../img/ucsb-icon.svg);
   width: 20px;
   display: inline-block;
