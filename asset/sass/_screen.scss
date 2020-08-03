@@ -363,6 +363,10 @@ ul.resource-list .genres li {
     }
 }
 
+.item.browse .resource-link img {
+    display: none;
+}
+
 /* @end */
 
 /* @group ----- Pages ----- */
@@ -580,6 +584,7 @@ ul.resource-list li {
 
 .page.genres .file .attachments img {
     vertical-align: bottom;
+    width: 100%;
 }
 
 .page.genres .genre {
@@ -587,6 +592,16 @@ ul.resource-list li {
     width: 80%;
     padding: 0 $spacing-l;
     margin-bottom: $spacing-l;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.page.genres .genre > * {
+    max-width: 700px;
 }
 
 .page.genres .genre h3 {

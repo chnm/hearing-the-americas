@@ -161,7 +161,8 @@ ul.resource-list li {
 }
 
 .media-embeds {
-    width: 20%;
+    width: calc((100% - 700px)/2);
+    text-align: right;
     float: left;
     padding: $spacing-l $spacing-l $spacing-l 0;
 
