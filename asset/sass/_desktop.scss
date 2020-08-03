@@ -316,7 +316,7 @@ body.item-set .metadata ~ nav.pagination:first-of-type {
 }
 
 .file {
-    width: calc(20% - #{$spacing-l});
+    width: calc((100% - 700px)/2 - 30px);
 }
 
 .left.file {
@@ -340,6 +340,19 @@ body.item-set .metadata ~ nav.pagination:first-of-type {
 
 .item-showcase .item-resource {
     margin: $spacing-l auto;
+}
+
+.attachments {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right .attachments {
+  justify-content: flex-start;
+}
+
+.left .attachments {
+  justify-content: flex-end;
 }
 
 /* @end */
