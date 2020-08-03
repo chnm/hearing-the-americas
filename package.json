@@ -1,0 +1,30 @@
+{
+  "name": "hta",
+  "version": "1.0.0",
+  "description": "Omeka S theme for Hearing the Americas",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-postcss": "^8.0.0",
+    "susy": "^3.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chnm/hearing-the-americas.git"
+  },
+  "keywords": [
+    "omeka-s-theme"
+  ],
+  "author": "Roy Rosenzweig Center for History and New Media",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chnm/hearing-the-americas/issues"
+  },
+  "homepage": "https://github.com/chnm/hearing-the-americas#readme"
+}
