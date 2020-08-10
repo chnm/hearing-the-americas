@@ -12,6 +12,7 @@ body {
     font-family: $copy-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
+    font-variant: normal;
     margin: 0;
     word-wrap: break-word;
     background-color: $bg;
@@ -419,6 +420,13 @@ ul.resource-list .genres li {
 
 .breadcrumbs {
     display: none;
+}
+
+.item-showcase .caption {
+  max-width: 900px;
+  padding: $spacing-m $spacing-l;
+  margin: auto;
+  background-color: transparentize($brown, .9);
 }
 
 .file a,
