@@ -364,7 +364,8 @@ ul.resource-list .genres li {
     }
 }
 
-.item.browse .resource-link img {
+.item.browse .resource-link img,
+.preview-block .genres .resource-link img {
     display: none;
 }
 
