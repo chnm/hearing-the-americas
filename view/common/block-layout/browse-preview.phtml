@@ -8,7 +8,7 @@
 <?php
 $headingTerm = $this->siteSetting('browse_heading_property_term', 'dcterms:title');
 $bodyTerm = $this->siteSetting('browse_body_property_term', 'dcterms:description');
-foreach ($this->items as $item):
+foreach ($this->resources as $item):
     $heading = $item->value($headingTerm, ['default' => $this->translate('[Untitled]')]);
     $genres = $item->value('dcterms:subject', ['all' => true]);
 ?>
@@ -17,7 +17,7 @@ foreach ($this->items as $item):
         <?php if (count($genres) > 0): ?>
             <ul class="genres">
             <?php foreach ($genres as $genre): ?>
-                <li><?php echo $genre; ?></li>
+                <li><?php echo $genre->asHtml(); ?></li>
             <?php endforeach; ?>
             </ul>
         <?php endif; ?>
