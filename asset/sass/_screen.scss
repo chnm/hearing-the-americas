@@ -305,12 +305,13 @@ header nav ul.navigation > li > ul {
 
 .property .resource-link {
     display: flex;
+    align-items: center;
 }
 
 .property .resource-link img {
     height: 1.5 * $spacing-l;
     width: auto;
-    margin: (-1 * $spacing-s) $spacing-m 0 0;
+    margin: 0 $spacing-m 0 0;
 }
 
 .linked-resource h4 {
@@ -336,6 +337,44 @@ header nav ul.navigation > li > ul {
 .property[data-term="dcterms:description"] {
     display: none;
 }
+
+.media-embeds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    
+    iframe[src*="loc.gov"] {
+      padding: $spacing-l;
+      background-color: #fff;
+    }
+    
+    &.audio .media-render {
+      width: 100%;
+    }
+    
+    iframe {
+      max-width: 100%;
+      width: 100%;
+    }
+    
+    .media-render > p {
+      margin: 0;
+    }
+}
+
+.media-embeds .media-render:not(:only-child) {
+    max-width: calc(50% - #{$spacing-l});
+    margin: $spacing-m;
+}
+
+.property .value:not(:last-child) {
+    margin-bottom: $spacing-s;
+    border-bottom: 1px solid $gray;
+    padding-bottom: $spacing-s;
+}
+
 
 /* @end */
 
@@ -386,10 +425,6 @@ ul.resource-list .genres li {
     display: none;
 }
 
-.blocks {
-    padding: 0 $spacing-l;
-}
-
 .blocks > h2:first-child,
 .blocks > h2:first-child + h2 {
     position: relative;
@@ -434,6 +469,9 @@ ul.resource-list .genres li {
 .item-showcase a {
     display: block;
     width: 100%;
+}
+
+.item-showcase a {
     text-align: center;
 }
 
@@ -481,6 +519,10 @@ ul.resource-list li {
   margin-left: 6px;
 }
 
+.file .attachments .resource {
+  break-after: always;
+}
+
 /* @end */
 
 /* @group ----- Trivia browse ----- */
@@ -488,7 +530,7 @@ ul.resource-list li {
 .spins.page .blocks {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .spins.page .blocks h2 {
@@ -497,9 +539,9 @@ ul.resource-list li {
 }
 
 .spins.page .blocks p {
-    width: calc(25% - #{$spacing-l});
+    width: calc(100% - #{$spacing-l});
     margin: 0 $spacing-m;
-    padding: 0 0 calc(25% - #{$spacing-l});
+    padding: 0 0 calc(100% - #{$spacing-l});
     margin-bottom: $spacing-l;
     font-family: $heading-font-family;
     background-color: fade-out($pink, .7);
@@ -577,18 +619,14 @@ ul.resource-list li {
     width: 100%;
 }
 
-.page.genres .file {
-    width: 20%;
-    margin: 0 0 $spacing-l;
-}
-
 .page.genres .file .attachments {
     display: flex;
     flex-wrap: wrap;
 }
 
-.page.genres .file .attachments .item {
+.page.genres .file .attachments .resource {
     width: 50%;
+    break-after: avoid;
 }
 
 .page.genres .file .attachments img {
@@ -598,9 +636,8 @@ ul.resource-list li {
 
 .page.genres .genre {
     background-color: #fff;
-    width: 80%;
     padding: 0 $spacing-l;
-    margin-bottom: $spacing-l;
+    margin-top: $spacing-l;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

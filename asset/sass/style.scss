@@ -7,5 +7,9 @@
 }
 
 @media screen and (min-width:800px) {
+    @import "tablet";
+}
+
+@media screen and (min-width:1200px) {
     @import "desktop";
 }
