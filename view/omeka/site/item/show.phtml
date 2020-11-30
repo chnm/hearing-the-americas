@@ -5,18 +5,33 @@ $resourceTemplateLabel = ($resourceTemplate) ? $resourceTemplate->label() : '';
 $this->htmlElement('body')->appendAttribute('class', 'item resource show ' . lcfirst($resourceTemplateLabel));
 $embedMedia = $this->siteSetting('item_media_embed', false);
 $itemMedia = $item->media();
+$imageMedia = [];
+$otherMedia = [];
+$whitelist = ['image/bmp', 'image/gif', 'image/jpeg', 'image/png', 'image/svg+xml'];
+foreach ($itemMedia as $media) {
+    $mediaType = $media->mediaType();
+    $mediaRenderer = $media->renderer();
+    if (in_array($mediaType, $whitelist) || (strpos($mediaRenderer, 'youtube') !== false)) {
+        $imageMedia[] = $media;
+    } else {
+        $otherMedia[] = $media;
+    }
+}
 ?>
 
 <?php if ($embedMedia && $itemMedia): ?>
     <?php if ($resourceTemplate && ($resourceTemplate->label() == 'Recording')): ?>
     <div class="audio media-embeds">
+      <?php foreach ($otherMedia as $media): ?>
+      <?php echo $media->render(); ?>
+      <?php endforeach; ?>
+    </div>
     <?php else: ?>
-    <div class="media-embeds">
     <?php endif; ?>
-    <?php foreach ($itemMedia as $media):
-        echo $media->render();
-    endforeach;
-    ?>
+    <div class="media-embeds">
+    <?php foreach ($imageMedia as $media): ?>
+        <?php echo $media->render(); ?>
+    <?php endforeach; ?>
     </div>
 <?php endif; ?>
 <div class="item-head">
@@ -26,7 +41,7 @@ $itemMedia = $item->media();
 
 <?php $this->trigger('view.show.before'); ?>
 <div class="item-metadata"><?php echo $item->displayValues(); ?></div>
-<?php echo ($itemDescription = '<div class="item-description">' . $item->value('dcterms:description') . '</div>') ? $itemDescription : ''; ?>
+<?php echo ($itemDescription = '<div class="item-description">' . $item->value('dcterms:description')->asHtml() . '</div>') ? $itemDescription : ''; ?>
 <?php if (!$embedMedia && $itemMedia): ?>
 <div class="media-list">
     <?php foreach ($itemMedia as $media): ?>
