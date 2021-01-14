@@ -96,8 +96,8 @@ textarea,
 button,
 .button,
 select {
-    font-family: "Open Sans", sans-serif;
-    font-size: $base-font-size;
+    font-family: $heading-font-family-small;
+    font-size: .875 * $base-font-size;
     line-height: $base-line-height;
     margin: 0;
     vertical-align: top;
@@ -127,11 +127,13 @@ input[type="file"] {
 }
 
 button,
+.button,
 a.button,
 [type="submit"] {
-    background-color: $light;
+    background-color: $link-red;
+    color: #fff;
     border-radius: 2px;
-    padding: $spacing-s;
+    padding: 0 $spacing-s;
     display: inline-block;
     appearance: none;
     -webkit-appearance: none;
@@ -144,7 +146,7 @@ select {
     background-color: #fff;
     padding: .5 * $spacing-s;
     border-color: $light;
-    height: 1.5 * $spacing-l;
+    height: $base-line-height;
     border: 1px solid $gray;
     font-size: .75 * $base-font-size;
 }
@@ -173,6 +175,47 @@ select {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+}
+
+.browse-controls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  & > * {
+    margin: $spacing-s 0;
+  }
+  
+  button,
+  .button,
+  a.button {
+    padding: 0 $spacing-s;
+    font-size: .875 * $base-font-size;
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  
+  a.button:before,
+  .button:before {
+    padding: 0 $spacing-s;
+    line-height: 1.25 * $base-line-height; 
+  }
+  
+  .inactive.button {
+    background-color: $light;
+    color: #000;
+  }
+    
+  form {
+    margin-right: $spacing-m;
+  }
+  
+  .row-count {
+    margin-left: $spacing-m;
+  }
 }
 
 .field .field-meta {
