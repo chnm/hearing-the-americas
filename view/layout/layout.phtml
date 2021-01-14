@@ -13,10 +13,13 @@ $this->headScript()->prependFile($this->assetUrl('vendor/jquery/jquery.min.js', 
 $this->trigger('view.layout');
 $title = $this->pageTitle($site->title());
 $logo = $this->themeSettingAssetUrl('logo');
+$userBar = $this->userBar();
 if ($logo):
     $title = '<img src="' . $this->escapeHtml($logo) . '">';
 endif;
-$userBar = $this->partial('common/user-bar', ['site' => $site]);
+if ($userBar) {
+  $this->htmlElement('body')->appendAttribute('class', 'user-bar');
+}
 ?>
 <?php echo $this->doctype(); ?>
 <?php echo $this->htmlElement('html'); ?>
