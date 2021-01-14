@@ -41,7 +41,9 @@ foreach ($itemMedia as $media) {
 
 <?php $this->trigger('view.show.before'); ?>
 <div class="item-metadata"><?php echo $item->displayValues(); ?></div>
-<?php echo ($itemDescription = '<div class="item-description">' . $item->value('dcterms:description')->asHtml() . '</div>') ? $itemDescription : ''; ?>
+<?php if ($itemDescription = $item->value('dcterms:description')): ?>
+<div class="item-description"><?php echo $itemDescription->asHtml(); ?></div>
+<?php endif; ?>
 <?php if (!$embedMedia && $itemMedia): ?>
 <div class="media-list">
     <?php foreach ($itemMedia as $media): ?>
