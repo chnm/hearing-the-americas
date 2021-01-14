@@ -218,6 +218,22 @@ select {
 
 /* @group ----- Header ----- */
 
+
+#skipnav {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    background-color: #fff;
+    padding: $spacing-s;
+    display: inline-block;
+
+    &:focus {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
 header {
     font-size: .75 * $base-font-size;
     padding: $spacing-l;
@@ -352,6 +368,7 @@ header nav ul.navigation > li > ul {
     
     &.audio .media-render {
       width: 100%;
+      margin: $spacing-l 0;
     }
     
     iframe {
@@ -361,6 +378,15 @@ header nav ul.navigation > li > ul {
     
     .media-render > p {
       margin: 0;
+    }
+    
+    .media-render {
+      break-after: always;
+    }
+    
+   .media-render img {
+      max-height: 15 * $spacing-l;
+      margin: 0 0 $spacing-l 0;
     }
 }
 

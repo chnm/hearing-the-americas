@@ -159,6 +159,10 @@ ul.resource-list li {
     max-width: calc(100% - #{5 * $spacing-l});
 }
 
+.audio audio {
+    width: 100%;
+}
+
 .media-embeds {
     text-align: right;
     float: left;
