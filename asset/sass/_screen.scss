@@ -479,6 +479,13 @@ ul.resource-list .genres li {
 
 /* @end */
 
+/* Artists and Songs */
+
+.page.artists .preview-block > a,
+.page.songs .preview-block > a {
+  display: none;
+}
+
 /* @group ----- Pages ----- */
 
 .break {
@@ -596,10 +603,18 @@ ul.resource-list li {
 
 /* @group ----- Trivia browse ----- */
 
-.spins.page .blocks {
+.spins.page .toc-block {
+    width: 100%;
+}
+
+.spins.page .blocks,
+.spins.page .toc-block .navigation{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
 }
 
 .spins.page .blocks h2 {
@@ -607,7 +622,8 @@ ul.resource-list li {
     max-width: none;
 }
 
-.spins.page .blocks p {
+.spins.page .blocks p,
+.spins.page .blocks .toc-block li {
     width: calc(100% - #{$spacing-l});
     margin: 0 $spacing-m;
     padding: 0 0 calc(100% - #{$spacing-l});
@@ -659,7 +675,8 @@ ul.resource-list li {
     }
 }
 
-.spins.page .blocks p a {
+.spins.page .blocks p a,
+.spins.page .blocks .toc-block li a {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -723,6 +740,14 @@ ul.resource-list li {
     margin-bottom: $spacing-s;
 }
 
+.page.genres .page-link-label {
+    font-size: 1.125 * $base-font-size;
+    line-height: $base-line-height;
+    font-family: $heading-font-family;
+    display: block;
+    margin-bottom: $spacing-l;
+}
+
 .page.genres .genre h3 + p {
     margin-top: $spacing-s;
 }
@@ -746,5 +771,28 @@ ul.resource-list li {
   li {
     padding: $spacing-s 0;
     border-bottom: 1px solid $gray;
+  }
+}
+
+/* Liner Notes */
+
+.page.liner-notes .toc-block ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  li {
+    background-color: #fff;
+    padding: $spacing-l;
+    margin: $spacing-l (.5 * $spacing-l);
+    
+    a {
+      font-size: 1.125 * $base-font-size;
+      line-height: $base-line-height;
+      font-family: $heading-font-family;
+      display: block;
+    }
   }
 }

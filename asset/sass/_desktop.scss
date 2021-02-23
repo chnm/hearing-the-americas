@@ -1,4 +1,5 @@
-.blocks {
+.blocks,
+footer {
     max-width: 2100px;
     margin: auto;
 }
@@ -12,7 +13,8 @@
     }  
 }
 
-.spins.page .blocks p {
+.spins.page .blocks p,
+.spins.page .blocks .toc-block li {
     width: calc(25% - #{$spacing-l});
     padding: 0 0 calc(25% - #{$spacing-l});
 }
