@@ -345,7 +345,6 @@ header nav ul.navigation > li > ul {
     display: none;
 }
 
-
 /* @end */
 
 /* @group ----- Item/Show ----- */
@@ -444,7 +443,42 @@ header nav ul.navigation > li > ul {
     padding-bottom: $spacing-s;
 }
 
+/* @end */
 
+/* @group ----- Home ----- */
+
+.home.page .blocks > div:first-child .item.resource,
+.home.page .blocks > div:nth-child(2) .item.resource {
+  @include card;
+}
+
+#home-genres ul {
+  list-style: none;
+  padding: 0;
+}
+
+#home-genres li {
+  @include card;
+  margin-bottom: $spacing-l;
+  padding: 0;
+  
+  a {
+    display: flex;
+    align-content: center;
+    align-items: center;    
+  }
+  
+  img {
+    float: left;
+    width: 3 * $spacing-l;
+    height: auto;
+    margin-right: $spacing-m;
+  }
+  
+  .summary {
+    display: inline-block;
+  }
+}
 /* @end */
 
 /* @group ----- Item/Browse ----- */

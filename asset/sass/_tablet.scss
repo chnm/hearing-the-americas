@@ -358,7 +358,7 @@ ul.resource-list li {
     height: 11 * $spacing-l;
 }
 
-.home.page .blocks > div:first-child .item.resource {
+.home.page .blocks > .artists .site-page {
     display: flex;
     background: #fff;
     padding: 0;
@@ -372,7 +372,7 @@ ul.resource-list li {
     }
 }
 
-.home.page .blocks > div:first-child .item.resource .caption {
+.home.page .blocks > .artists  {
     padding: $spacing-m $spacing-l;
 }
 
@@ -395,84 +395,44 @@ ul.resource-list li {
     font-family: $heading-font-family;
 }
 
-.home.page .playlist {
-    width: 100%;
-    clear: both;
-    font-family: $heading-font-family;
-    text-align: center;
+#home-liner-notes {
+  clear: both;
+}
+
+#home-liner-notes ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  
+  li {
+    list-style-type: none;
+    margin-left: 0;
     background-color: #fff;
     padding: $spacing-l;
-}
-
-.home.page .blocks > div:nth-child(4) {
-    width: 100%;
-    margin: $spacing-l 0;
-    clear: both;
-
-    .attachments {
-        display: flex;
-        justify-content: space-between;
+    width: calc(25% - #{$spacing-m});
+    margin-bottom: $spacing-l;
+    text-align: center;
+  }
+  
+  a {
+    font-family: $heading-font-family;
+    padding-bottom: $spacing-s;
+    margin-bottom: $spacing-s;
+    position: relative;
+    display: block;
+    
+    &:before {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      width: 90px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 3px;
+      background-color: rgba(58,46,46,0.2);
     }
-}
-
-.home.page .left.file:nth-child(4) .attachments .resource {
-    break-after: avoid;
-}
-
-.home.page .left.file:nth-child(4) .attachments .resource {
-    width: calc(33.33% - #{$spacing-l});
-    border: 1px solid #eee;
-    background-color: #fff;
-
-    &:last-child {
-        border-right-width: 1px;
-    }
-
-    .caption {
-        padding: 0 $spacing-l;
-    }
-
-    .caption p {
-        margin-top: 0;
-    }
-
-    img {
-        vertical-align: bottom;
-    }
-
-    .media-render {
-        position: relative;
-    }
-
-    .media-render:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background-color: transparentize($pink, .8);
-    }
-
-    &:nth-child(2) .media-render:before {
-        background-color: transparentize($blue, .8);
-    }
-
-    &:nth-child(3) .media-render:before {
-        background-color: transparentize($green, .8);
-    }
-}
-
-.home.page .left.file:nth-child(4) h3 {
-    margin-top: $spacing-l;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    margin-bottom: 0;
-}
-
-.home.page .left.file:nth-child(4) h3 a {
-    text-align: left;
-    padding: 0 $spacing-l;
+  }
 }
 
 /* @end */
