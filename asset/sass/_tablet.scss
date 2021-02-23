@@ -348,8 +348,7 @@ ul.resource-list li {
     padding: $spacing-l 0;
 }
 
-.home.page .blocks > div:first-child {
-    width: calc(75% - #{$spacing-m});
+.home.page .blocks > .intro {
     float: left;
     position: relative;
 
