@@ -364,6 +364,7 @@ ul.resource-list li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;  
+  width: calc(75% - #{$spacing-m});
 }
 
 .home .spins .site-page {
@@ -413,23 +414,81 @@ ul.resource-list li {
     padding: $spacing-m $spacing-l;
 }
 
-.home.page .blocks > div:first-child .item.resource h3 {
-    margin: 0;
-}
-
-.home.page .blocks > div:first-child .item.resource h3 + p {
-    margin: 0;
-}
-
-.home.page .blocks > div:first-child .item.resource img {
-    vertical-align: bottom;
-    height: 5 * $spacing-l;
-    width: 5 * $spacing-l;
-    max-width: none;
-}
-
 .home.page .blocks > .intro strong {
     font-family: $heading-font-family;
+}
+
+.home.page .blocks > .left.file {
+  width: calc(75% - #{$spacing-m});
+  margin: 0 $spacing-m $spacing-l 0;
+  clear: both;
+  float: left;
+
+  .attachments {
+      display: flex;
+      justify-content: space-between;
+  }
+}
+
+.home.page .left.file .attachments .resource  {
+  break-after: avoid;
+}
+
+.home.page .left.file .attachments .resource {
+  width: calc(50% - #{$spacing-m});
+  border: 1px solid #eee;
+  background-color: #fff;
+  margin-bottom: $spacing-l;
+
+  &:last-child {
+      border-right-width: 1px;
+  }
+
+  .caption {
+      padding: 0 $spacing-l;
+  }
+
+  .caption p {
+      margin-top: 0;
+  }
+
+  img {
+      vertical-align: bottom;
+  }
+
+  .media-render {
+      position: relative;
+  }
+
+  .media-render:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: transparentize($pink, .8);
+  }
+
+  &:nth-child(2) .media-render:before {
+      background-color: transparentize($blue, .8);
+  }
+
+  &:nth-child(3) .media-render:before {
+      background-color: transparentize($green, .8);
+  }
+}
+
+.home.page .left.file h3 {
+  margin-top: $spacing-l;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin-bottom: 0;
+}
+
+.home.page .left.file h3 a {
+  text-align: left;
+  padding: 0 $spacing-l;
 }
 
 #home-liner-notes {
