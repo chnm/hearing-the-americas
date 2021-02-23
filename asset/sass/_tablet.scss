@@ -358,18 +358,55 @@ ul.resource-list li {
     height: 11 * $spacing-l;
 }
 
-.home.page .blocks > .spins.site-pages {
-    display: flex;
-    background: #fff;
-    padding: 0;
-    width: calc(50% - #{$spacing-m});
-    overflow: hidden;
-    margin-bottom: $spacing-l;
-    break-after: avoid;
+.home .spins {
+  float: right;
+  margin-bottom: 2 * $spacing-l;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
 
-    &:nth-child(2n) {
-        margin-left: $spacing-l;
-    }
+.home .spins .site-page {
+  width: calc(33% - #{$spacing-m});
+}
+
+.home .spins .site-page .description {
+    padding: $spacing-m $spacing-l;
+}
+
+.home .spins .site-page .home-heading {
+    margin: 0;
+}
+
+.home .spins .page-link {
+  width: 100%;
+  display: block;
+}
+
+.home .spins .page-link img,
+.home .file .item.resource img {  
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.home .spins .site-page {
+  position: relative;
+}
+
+.home .spins .heading {
+    position: absolute;
+    top: $spacing-m;
+    left: $spacing-m;
+    z-index: 6;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: $spacing-s;
+}
+
+.home .spins .page-link-label {
+    padding: $spacing-m;
+    display: block;
 }
 
 .home.page .blocks > .spins  {
