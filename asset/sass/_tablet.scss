@@ -369,6 +369,7 @@ ul.resource-list li {
 
 .home .spins .site-page {
   width: calc(33% - #{$spacing-m});
+  background-color: #fff;
 }
 
 .home .spins .site-page .description {
@@ -382,7 +383,6 @@ ul.resource-list li {
 .home .spins .page-link {
   width: 100%;
   display: block;
-  background: #fff;
 }
 
 .home .spins .page-link img,
