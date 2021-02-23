@@ -351,11 +351,11 @@ ul.resource-list li {
 .home.page .blocks > .intro {
     float: left;
     position: relative;
-
-    .attachments {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    width: calc(25% - #{$spacing-m});
+    font-size: 1.25 * $base-font-size;
+    line-height: 1.5 * $base-line-height;
+    margin-bottom: $spacing-l;
+    height: 11 * $spacing-l;
 }
 
 .home.page .blocks > div:first-child .item.resource {
@@ -389,15 +389,6 @@ ul.resource-list li {
     height: 5 * $spacing-l;
     width: 5 * $spacing-l;
     max-width: none;
-}
-
-.home.page .blocks > .intro {
-    width: calc(25% - #{$spacing-m});
-    font-size: 1.25 * $base-font-size;
-    line-height: 1.5 * $base-line-height;
-    margin-bottom: $spacing-l;
-    float: right;
-    height: 11 * $spacing-l;
 }
 
 .home.page .blocks > .intro strong {
