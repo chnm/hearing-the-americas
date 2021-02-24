@@ -25,7 +25,7 @@ foreach ($itemMedia as $media) {
       <?php foreach ($otherMedia as $media): ?>
       <?php echo $media->render(); ?>
       <?php if ($media->value('dcterms:source')): ?>
-      <div class="attribution"><?php echo $media->value('dcterms:source')->asHtml(); ?></div>
+      <div class="attribution">Source: <?php echo $media->value('dcterms:source')->asHtml(); ?></div>
       <?php endif; ?>
       <?php endforeach; ?>
     </div>
