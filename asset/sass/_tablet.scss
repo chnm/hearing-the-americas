@@ -1,13 +1,12 @@
-  @mixin constraint {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+@mixin constraint {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
-#content,
-footer {
-    padding: 0 $spacing-l $spacing-l;
+#content {
+    padding: $spacing-l $spacing-l;
 }
 
 table {
@@ -50,6 +49,10 @@ header {
 /* @end */
 
 /* @group ----- Footer ----- */
+
+footer {
+  padding: 0 $spacing-l
+}
 
 .home.page .logo img {
     height: 2 * $spacing-l;
