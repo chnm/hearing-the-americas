@@ -65,7 +65,8 @@ img {
     height: auto;
 }
 
-#content {
+#content,
+footer {
     padding: $spacing-l;
     overflow-x: hidden;
 }
