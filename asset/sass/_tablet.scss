@@ -5,7 +5,8 @@
     width: 60%;
 }
 
-#content {
+#content,
+footer {
     padding: 0 $spacing-l $spacing-l;
 }
 
@@ -55,8 +56,8 @@ footer {
 }
 
 .home.page .logo img {
-  height: 3 * $spacing-l;
-  margin-right: $spacing-l;
+    height: 2 * $spacing-l;
+    margin-right: $spacing-l;
 }
 
 /* @end */
