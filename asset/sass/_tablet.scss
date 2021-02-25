@@ -54,6 +54,11 @@ footer {
     padding: 0 (2 * $spacing-s) $spacing-l;
 }
 
+.home.page .logo img {
+  height: 3 * $spacing-l;
+  margin-right: $spacing-l;
+}
+
 /* @end */
 
 /* @group ----- Navigation ----- */
