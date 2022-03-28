@@ -9,6 +9,7 @@ $this->headLink()->prependStylesheet($this->assetUrl('css/iconfonts.css', 'Omeka
 $this->headLink()->prependStylesheet('//fonts.googleapis.com/css?family=Crimson+Text|Montserrat');
 $this->headScript()->prependFile($this->assetUrl('js/default.js'));
 $this->headScript()->prependFile($this->assetUrl('js/global.js', 'Omeka'));
+$this->jsTranslate();
 $this->headScript()->prependFile($this->assetUrl('vendor/jquery/jquery.min.js', 'Omeka'));
 $this->trigger('view.layout');
 $title = $this->pageTitle($site->title());
