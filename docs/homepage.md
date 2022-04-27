@@ -3,6 +3,7 @@
 Here's what goes in the home page for HtA
 
 Title: Welcome
+
 URL slug: welcome
 
 === HOMEPAGE LAYOUT ===
@@ -29,9 +30,83 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 </script>
 ```
+End HTML Block
 
-Asset
-
+Asset Block
 ![hero-img1](https://user-images.githubusercontent.com/59841908/165409966-da16698f-d1a7-4ab3-8dce-14f07fd3494a.png)
+Class: hero-image, Alignment: default
+
+End Asset Block
+
+HTML Block
+```
+<div class="intro2">
+  <div id="get-started-here"><!-- get started -->
+    <h1>Get Started</h1>
+    <p>The music of the early recorded industry predates most of the familiar commercial genres we know today. Terms like &ldquo;country,&rdquo; blues&rdquo; or &ldquo;folk,&rdquo; didn&rsquo;t have the same meaning, and the site offers startling insights into how those genres came to be.</p>
+    <p>It reflects the transnational circulation of themes and styles, but also the circulation of ethnic and racial stereotypes, many of which will be extremely offensive to modern audiences.</p>
+    <div class="alert alert-warning">
+      <h2>Disclaimer</h2>
+      <p>This site contains historical content which may be upsetting or offensive to some visitors. Please see the content warning for a full statement.</p>
+    </div>
+  </div> <!-- end get started -->
+
+  <div class="explore-spacing"><!-- start explore -->
+    <h1>Explore</h1>   
+    <div class="container-cards"><!-- start container cards -->
+      <div id="explore-cards"><!-- start scenes -->
+        <h2 style="font-size: 18px; margin-bottom: 0px;">Scenes</h2>
+        <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you can use material you find, and creating metadata to describe your sources.</p>
+        <p><a class="button" href="#" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View all scenes</a></p>
+      </div> <!-- end scenes -->
+      
+      <div id="explore-cards"><!-- start artists -->
+        <h2 style="font-size: 18px; margin-bottom: 0px;">Artists</h2>
+        <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you can use material you find, and creating metadata to describe your sources.</p>
+        <p><a class="button" href="#" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View all artists</a></p>
+      </div> <!-- end artists -->
+    </div> <!-- end container cards -->
+
+    <div class="container-cards"><!-- start container cards -->
+      <div id="explore-cards"><!-- start spins -->
+        <h2 style="font-size: 18px; margin-bottom: 0px;">Spins</h2>
+        <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you can use material you find, and creating metadata to describe your sources.</p>
+        <p><a class="button" href="#" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View all spins</a></p>
+      </div> <!-- end spins -->
+
+      <div id="explore-cards"><!-- start notes -->
+        <h2 style="font-size: 18px; margin-bottom: 0px;">Notes</h2>
+        <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you can use material you find, and creating metadata to describe your sources.</p>
+        <p><a class="button" href="#" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View all notes</a></p>
+     </div> <!-- end notes -->
+    </div> <!-- end container cards -->
+  </div> <!-- end explore -->
+</div>
+```
+END HTML Block
+
+HTML Block
+```
+<div class="iframe-div">
+<p style="margin-top: 0; padding-top: 0; line-height: 0px;"><iframe allowfullscreen="" frameborder="0" height="650" mozallowfullscreen="" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1QA4375O8BUp5pUas5Yr0duph-Pg5fRYmHJ0ZcKLLuDE&amp;font=Default&amp;lang=en&amp;initial_zoom=2&amp;height=650" style="overflow-x: hidden;overflow-y: hidden;" webkitallowfullscreen="" width="100%"></iframe></p>
+</div>
+```
+
+END HTML Block
+
+HTML Block
+```
+<div class="div-banner">
+<div class="spin-icon"><img src="http://localhost:8888/omeka-s/files/asset/94b5991e703720594d09ca0c6bde38dddab2185b.png" /></div>
+
+<div class="spin-banner">
+<h2>Spins</h2>
+
+<p>The music of the early recorded industry predates most of the familiar commercial genres we know today Terms like &ldquo;country,&rdquo; blues&rdquo; or &ldquo;folk,&rdquo; didn&rsquo;t have the same meaning, and the site offers startling insights into how those genres came to be.</p>
+</div>
+</div>
+```
+END HTML Block
+
 
 
