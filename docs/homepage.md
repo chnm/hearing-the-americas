@@ -17,7 +17,7 @@ HTML block
 <p>explores the early decades of the recording industry (1898-1925), posing new questions about the origins of popular music.</p>
 <a class="button" href="#get-started-here" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">Get Started</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="#" style="border: 2px solid #B13A1A; padding-top: 2px; padding-bottom: 2px; padding-left: 15px; padding-right: 15px; background-color: #F6F1E9; color: #B13A1A; border-radius: 4px; display: inline-block; cursor: pointer; font-size: 15px; font-weight: 600;">About</a></div>
 
-<div id="right-intro"><img alt="" src="http://localhost:8888/omeka-s/files/asset/ddac41ce1cbcc6c315ec8523606ec4bcad85f2d6.png" style="width: 450px; padding-top: 30px; padding-right: 100px;" /></div>
+<div id="right-intro"><img alt="" src="<RELATIVE PATH to /asset/img/HtA-Vinyl-icon.png>" style="width: 450px; padding-top: 30px; padding-right: 100px;" /></div>
 </div>
 <script> 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -97,7 +97,7 @@ END HTML Block
 HTML Block
 ```
 <div class="div-banner">
-<div class="spin-icon"><img src="http://localhost:8888/omeka-s/files/asset/94b5991e703720594d09ca0c6bde38dddab2185b.png" /></div>
+<div class="spin-icon"><img src="<RELATIVE PATH to /asset/img/spins-banner-icon.png" /></div>
 
 <div class="spin-banner">
 <h2>Spins</h2>
@@ -105,6 +105,51 @@ HTML Block
 <p>The music of the early recorded industry predates most of the familiar commercial genres we know today Terms like &ldquo;country,&rdquo; blues&rdquo; or &ldquo;folk,&rdquo; didn&rsquo;t have the same meaning, and the site offers startling insights into how those genres came to be.</p>
 </div>
 </div>
+```
+END HTML Block
+
+HTML Block
+```
+<div class="records">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="RELATIVE PATH TO /assets/img/spin1.png" style="border-radius: 50%;z-index: -1;" /></a></div>
+
+<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="RELATIVE PATH TO /assets/img/" style="border-radius: 50%;z-index: -1;" /></a></div>
+</div>
+</div>
+
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="	http://localhost:8888/omeka-s/files/asset/cba1e55c63b045bee8ce33ddf9753a4a34849ee9.png" style="border-radius: 50%;z-index: -1;" /></a></div>
+
+<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/b56d3e79c7b2569ff68d6384f70a51a6426616e8.png" style="border-radius: 50%;z-index: -1;" /></a></div>
+</div>
+</div>
+
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="	http://localhost:8888/omeka-s/files/asset/cba1e55c63b045bee8ce33ddf9753a4a34849ee9.png" style="border-radius: 50%;z-index: -1;" /></a></div>
+
+<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/b56d3e79c7b2569ff68d6384f70a51a6426616e8.png" style="border-radius: 50%;z-index: -1;" /></a></div>
+</div>
+</div>
+
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="	http://localhost:8888/omeka-s/files/asset/cba1e55c63b045bee8ce33ddf9753a4a34849ee9.png" style="border-radius: 50%;z-index: -1;" /></a></div>
+
+<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/b56d3e79c7b2569ff68d6384f70a51a6426616e8.png" style="border-radius: 50%;z-index: -1;" /></a></div>
+</div>
+</div>
+</div>
+```
+END HTML Block
+
+
+HTML Block
+```
+<p><a class="button" href="http://localhost:8888/omeka-s/s/hearing-the-americas-preprod/page/spins" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px; margin-left: 45%; margin-top: 30px; margin-bottom: 40px;">More Spins</a></p>
 ```
 END HTML Block
 
