@@ -3,6 +3,7 @@
 Here's what goes in the footer HtA pages
 Theme -> Edit theme settings -> Footer Content
 
+```
 <footer>
   <div class="div-footer">
     <p style="margin-bottom: 0; "> Hearing the Americas is a project of the George Mason University with funding from the National Endowment for the Humanities. </p> 
@@ -17,3 +18,4 @@ Theme -> Edit theme settings -> Footer Content
     </div>
   </div>
 </footer>
+```
