@@ -17,7 +17,7 @@ HTML block - INTRO
 <p>explores the early decades of the recording industry (1898-1925), posing new questions about the origins of popular music.</p>
 <a class="button" href="#get-started-here" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">Get Started</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="#" style="border: 2px solid #B13A1A; padding-top: 2px; padding-bottom: 2px; padding-left: 15px; padding-right: 15px; background-color: #F6F1E9; color: #B13A1A; border-radius: 4px; display: inline-block; cursor: pointer; font-size: 15px; font-weight: 600;">About</a></div>
 
-<div id="right-intro"><img alt="" src="<RELATIVE PATH to /asset/img/HtA-Vinyl-icon.png>" style="width: 450px; padding-top: 30px; padding-right: 100px;" /></div>
+<div id="right-intro"><img alt="" src="</themes/hearing/asset/img/HtA-Vinyl-icon.png>" style="width: 450px; padding-top: 30px; padding-right: 100px;" /></div>
 </div>
 <script> 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -123,7 +123,7 @@ HTML Block - SPIN BANNER
 ```
 <div class="div-banner">
     <div class="spin-icon">
-        <img src="RELATIVE PATH to /asset/img/spins-banner-icon.png"/>
+        <img src="/themes/hearing/asset/img/spins-banner-icon.png"/>
     </div>
 
     <div class="spin-banner">
@@ -142,12 +142,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="Avatar"
-                    src="RELATIVE PATH to /assets/img/front-spins/spin1.png"
+                    src="/themes/hearing/asset/img/front-spins/spin1.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
                         alt="Avatar"
-                        src="RELATIVE PATH to /assets/img/back-spins/back1.png"
+                        src="/themes/hearing/asset/img/back-spins/back1.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>
@@ -155,12 +155,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="Avatar"
-                    src="RELATIVE PATH to /assets/img/front-spins/spin2.png"
+                    src="/themes/hearing/asset/img/front-spins/spin2.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-popular-band"><img
                         alt="Avatar"
-                        src="RELATIVE PATH to /assets/img/back-spins/back2.png"
+                        src="/themes/hearing/asset/img/back-spins/back2.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>
@@ -168,12 +168,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="Avatar"
-                    src="RELATIVE PATH to /assets/img/front-spins/spin3.png"
+                    src="/themes/hearing/asset/img/front-spins/spin3.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
                     href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"><img alt="Avatar"
-                        src="RELATIVE PATH to /assets/img/back-spins/back3.png"
+                        src="/themes/hearing/asset/img/back-spins/back3.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>
@@ -181,12 +181,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="Avatar"
-                    src="RELATIVE PATH to /assets/img/front-spins/spin4.png"
+                    src="/themes/hearing/asset/img/front-spins/spin4.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
                     href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"><img alt="Avatar"
-                        src="RELATIVE PATH to /assets/img/back-spins/back4.png"
+                        src="/themes/hearing/asset/img/back-spins/back4.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>

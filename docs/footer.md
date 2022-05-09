@@ -10,10 +10,10 @@ Theme -> Edit theme settings -> Footer Content
     <p> Descriptive metadata and transcriptions are available for use under the terms of the Creative Commons by Attribution License (4.0). <br> Permissions for use of the document images are held by their original repository.</p>
     <div class="div-foot-img">
       <div>
-        <img src="RELATIVE PATH TO /assets/img/rrchnm.png">
+        <img src="/themes/hearing/asset/img/rrchnm.png">
       </div>
       <div>
-        <img src="RELATIVE PATH TO /assets/img/neh.png">
+        <img src="/themes/hearing/asset/img/neh.png">
       </div>     
     </div>
   </div>
