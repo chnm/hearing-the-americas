@@ -43,11 +43,7 @@ HTML Block - GET STARTED
     <div id="get-started-here">
         <!-- get started -->
         <h1>Get Started</h1>
-        <p>The music of the early recorded industry predates most of the familiar commercial genres we know today. Terms
-            like &ldquo;country,&rdquo; blues&rdquo; or &ldquo;folk,&rdquo; didn&rsquo;t have the same meaning, and the
-            site offers startling insights into how those genres came to be.</p>
-        <p>It reflects the transnational circulation of themes and styles, but also the circulation of ethnic and racial
-            stereotypes, many of which will be extremely offensive to modern audiences.</p>
+        <p>TThe emergence of the record industry in the early decades of the twentieth century had a powerful impact on popular music, carrying songs and styles across national borders and pushing innovation in unexpected directions. These early recordings can sound very strange to modern ears, since the technology was limited, and most of the genres we are used to did not yet exist.</p><p> This website provides multiple paths into this sonic world, revealing new perspectives on the history of this period.</p>
         <div class="alert alert-warning">
             <h2>Disclaimer</h2>
             <p>This site contains historical content which may be upsetting or offensive to some visitors. Please see
@@ -62,9 +58,8 @@ HTML Block - GET STARTED
             <!-- start container cards -->
             <div id="explore-cards">
                 <!-- start scenes -->
-                <h2 style="font-size: 18px; margin-bottom: 0px;">Scenes</h2>
-                <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you
-                    can use material you find, and creating metadata to describe your sources.</p>
+                <h2 style="font-size: 18px; margin-bottom: 0px;">Styles</h2>
+                <p style="margin-block-start: 0px;">Check out the musical categories that accounted for many of the recordings sold in this period.</p>
                 <p><a class="button" href="#"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
                         all scenes</a></p>
@@ -73,8 +68,7 @@ HTML Block - GET STARTED
             <div id="explore-cards">
                 <!-- start artists -->
                 <h2 style="font-size: 18px; margin-bottom: 0px;">Artists</h2>
-                <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you
-                    can use material you find, and creating metadata to describe your sources.</p>
+                <p style="margin-block-start: 0px;">Some of these performers are still famous today. Many more you’ve never heard of, though they sold hundreds of thousands of records.</p>
                 <p><a class="button" href="#"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
                         all artists</a></p>
@@ -86,8 +80,7 @@ HTML Block - GET STARTED
             <div id="explore-cards">
                 <!-- start spins -->
                 <h2 style="font-size: 18px; margin-bottom: 0px;">Spins</h2>
-                <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you
-                    can use material you find, and creating metadata to describe your sources.</p>
+                <p style="margin-block-start: 0px;">Test your knowledge with these questions about music at the dawn of the recording era. You may be surprised by what you find.</p>
                 <p><a class="button" href="#"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
                         all spins</a></p>
@@ -96,8 +89,7 @@ HTML Block - GET STARTED
             <div id="explore-cards">
                 <!-- start notes -->
                 <h2 style="font-size: 18px; margin-bottom: 0px;">Notes</h2>
-                <p style="margin-block-start: 0px;">Finding digital primary sources of local history, determining if you
-                    can use material you find, and creating metadata to describe your sources.</p>
+                <p style="margin-block-start: 0px;">Explore the technical, commercial, and musicological aspects of the early record business.</p>
                 <p><a class="button" href="#"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
                         all notes</a></p>
@@ -128,9 +120,7 @@ HTML Block - SPIN BANNER
 
     <div class="spin-banner">
         <h2>Spins</h2>
-        <p>The music of the early recorded industry predates most of the familiar commercial genres we know today Terms
-            like &ldquo;country,&rdquo; blues&rdquo; or &ldquo;folk,&rdquo; didn&rsquo;t have the same meaning, and the
-            site offers startling insights into how those genres came to be. </p>
+        <p>Test your knowledge with these questions about music at the dawn of the recording era. </p>
     </div>
 </div>
 ```
@@ -141,12 +131,12 @@ HTML Block - RECORDS
 <div class="records">
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="Avatar"
+            <div class="flip-card-front"><img alt="Q: What was the dance craze that inspired W.C. Handy's legendary St. Louis Blues (1914)?"
                     src="/themes/hearing/asset/img/front-spins/spin1.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
-                        alt="Avatar"
+                        alt="A: The tango. Click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back1.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
@@ -154,12 +144,12 @@ HTML Block - RECORDS
 
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="Avatar"
+            <div class="flip-card-front"><img alt="What was the most popular kind of band in America and worldwide in 1900?"
                     src="/themes/hearing/asset/img/front-spins/spin2.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-popular-band"><img
-                        alt="Avatar"
+                        alt="A: The brass band. click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back2.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
@@ -167,12 +157,12 @@ HTML Block - RECORDS
 
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="Avatar"
+            <div class="flip-card-front"><img alt="How did recording transform music listening?"
                     src="/themes/hearing/asset/img/front-spins/spin3.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
-                    href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"><img alt="Avatar"
+                    href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"><img alt="A: It allowed people to listen in private. Click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back3.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
@@ -180,12 +170,12 @@ HTML Block - RECORDS
 
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="Avatar"
+            <div class="flip-card-front"><img alt="What role did Black people from the British Caribbean play in the Jazz Age?"
                     src="/themes/hearing/asset/img/front-spins/spin4.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
-                    href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"><img alt="Avatar"
+                    href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"><img alt="A: Migration patterns and the record business made them central. Click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back4.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
