@@ -1190,7 +1190,47 @@
       justify-content: center;
       align-items: center;
     }  
+        /* Styles page */
 
+    .styles-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #fff;
+        height: 240px;
+        z-index: -2;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+
+    .styles-block p {
+        font-family: "Crimson Text", serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin-right: 150px;
+    }
+
+    .styles-block h2 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .img-style-block {
+        position: relative;
+        width: 20%;
+    }
+
+    .style-p {
+        width: 80%;
+    }
+
+    /* .img-style-block img {
+  
+    } */
 }
 
 /* END MOBILE  */
