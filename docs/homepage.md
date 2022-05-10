@@ -43,7 +43,7 @@ HTML Block - GET STARTED
     <div id="get-started-here">
         <!-- get started -->
         <h1>Get Started</h1>
-        <p>TThe emergence of the record industry in the early decades of the twentieth century had a powerful impact on popular music, carrying songs and styles across national borders and pushing innovation in unexpected directions. These early recordings can sound very strange to modern ears, since the technology was limited, and most of the genres we are used to did not yet exist.</p><p> This website provides multiple paths into this sonic world, revealing new perspectives on the history of this period.</p>
+        <p>The emergence of the record industry in the early decades of the twentieth century had a powerful impact on popular music, carrying songs and styles across national borders and pushing innovation in unexpected directions. These early recordings can sound very strange to modern ears, since the technology was limited, and most of the genres we are used to did not yet exist. This website provides multiple paths into this sonic world, revealing new perspectives on the history of this period.</p>
         <div class="alert alert-warning">
             <h2>Disclaimer</h2>
             <p>This site contains historical content which may be upsetting or offensive to some visitors. Please see
@@ -57,19 +57,19 @@ HTML Block - GET STARTED
         <div class="container-cards">
             <!-- start container cards -->
             <div id="explore-cards">
-                <!-- start scenes -->
+                <!-- start styles -->
                 <h2 style="font-size: 18px; margin-bottom: 0px;">Styles</h2>
                 <p style="margin-block-start: 0px;">Check out the musical categories that accounted for many of the recordings sold in this period.</p>
-                <p><a class="button" href="#"
+                <p><a class="button" href="/s/the-americas/page/genres"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
-                        all scenes</a></p>
-            </div> <!-- end scenes -->
+                        all Styles</a></p>
+            </div> <!-- end styles -->
 
             <div id="explore-cards">
                 <!-- start artists -->
                 <h2 style="font-size: 18px; margin-bottom: 0px;">Artists</h2>
                 <p style="margin-block-start: 0px;">Some of these performers are still famous today. Many more you’ve never heard of, though they sold hundreds of thousands of records.</p>
-                <p><a class="button" href="#"
+                <p><a class="button" href="/s/the-americas/page/artists"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
                         all artists</a></p>
             </div> <!-- end artists -->
@@ -81,7 +81,7 @@ HTML Block - GET STARTED
                 <!-- start spins -->
                 <h2 style="font-size: 18px; margin-bottom: 0px;">Spins</h2>
                 <p style="margin-block-start: 0px;">Test your knowledge with these questions about music at the dawn of the recording era. You may be surprised by what you find.</p>
-                <p><a class="button" href="#"
+                <p><a class="button" href="/s/the-americas/page/spins"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
                         all spins</a></p>
             </div> <!-- end spins -->
@@ -90,7 +90,7 @@ HTML Block - GET STARTED
                 <!-- start notes -->
                 <h2 style="font-size: 18px; margin-bottom: 0px;">Notes</h2>
                 <p style="margin-block-start: 0px;">Explore the technical, commercial, and musicological aspects of the early record business.</p>
-                <p><a class="button" href="#"
+                <p><a class="button" href="/s/the-americas/page/notes"
                         style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">View
                         all notes</a></p>
             </div> <!-- end notes -->
@@ -135,7 +135,7 @@ HTML Block - RECORDS
                     src="/themes/hearing/asset/img/front-spins/spin1.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
-            <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
+            <div class="flip-card-back"><a href="/s/the-americas/page/q-dancecraze"><img
                         alt="A: The tango. Click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back1.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
@@ -148,7 +148,7 @@ HTML Block - RECORDS
                     src="/themes/hearing/asset/img/front-spins/spin2.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
-            <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-popular-band"><img
+            <div class="flip-card-back"><a href="/s/the-americas/page/q-popular-band"><img
                         alt="A: The brass band. click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back2.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
@@ -162,7 +162,7 @@ HTML Block - RECORDS
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
-                    href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"><img alt="A: It allowed people to listen in private. Click to learn more"
+                    href="/s/the-americas/page/recording-transform"><img alt="A: It allowed people to listen in private. Click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back3.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
@@ -175,7 +175,7 @@ HTML Block - RECORDS
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
-                    href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"><img alt="A: Migration patterns and the record business made them central. Click to learn more"
+                    href="/s/the-americas/page/british-caribbean"><img alt="A: Migration patterns and the record business made them central. Click to learn more"
                         src="/themes/hearing/asset/img/back-spins/back4.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
@@ -187,6 +187,6 @@ END HTML Block
 
 HTML Block
 ```
-<p><a class="button" href="http://localhost:8888/omeka-s/s/hearing-the-americas-preprod/page/spins" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px; margin-left: 45%; margin-top: 30px; margin-bottom: 40px;">More Spins</a></p>
+<p><a class="button" href="/s/the-americas/page/spins" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px; margin-left: 45%; margin-top: 30px; margin-bottom: 40px;">More Spins</a></p>
 ```
 END HTML Block
