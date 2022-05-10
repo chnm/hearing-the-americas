@@ -2177,11 +2177,6 @@
         z-index: -1;
     }
 
-    .shelf {
-        margin-bottom: 80px;
-    }
-    
-
 }
 
 @media screen and (min-width: 1400px) {
@@ -2214,10 +2209,5 @@
     .spin-icon {
         margin-top: -20px;
     }
-
-    .shelf {
-        margin-bottom: 80px;
-    }
-    
 
 }
