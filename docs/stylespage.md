@@ -11,7 +11,7 @@ HTML block
 ```
 <div class="styles-block">
     <div class="img-style-block"><img
-            src="RELATIVE PATH TO /asset/img/minstrelsy.png" /></div>
+            src="/themes/hearing-the-americas/asset/img/minstrelsy.png" /></div>
 
     <div class="style-p">
         <h2 style="color: #b13a1a;">Minstrelsy</h2>
@@ -27,15 +27,12 @@ END HTML block
 HTML block
 ```
 <div class="styles-block">
-    <div class="img-style-block"><img src="RELATIVE PATH TO /asset/img/tango.png" /></div>
+    <div class="img-style-block"><img src="/themes/hearing-the-americas/asset/img/tango.png" /></div>
 
     <div class="style-p">
         <h2 style="color: #b13a1a;">Tango</h2>
 
-        <p>The tango is a music and dance genre that emerged in Buenos Aires, Argentina and its close neighbor
-            Montevideo, Uruguay during the late nineteenth century. Derived from Cuban and European sources that were
-            reworked by Afro-Argentines and Afro-Uruguayans as well as their white imitators, the tango became
-            enormously popular in Europe and the United States in the 1910s.</p>
+        <p>The tango is a music and dance genre that emerged in Buenos Aires, Argentina and its close neighbor Montevideo, Uruguay during the late nineteenth century. Derived from Cuban and European sources that were reworked by Afro-Argentines and Afro-Uruguayans as well as their white imitators, the tango became enormously popular in Europe and the United States in the 1910s.</p>
     </div>
 </div>
 ```
@@ -44,15 +41,12 @@ END HTML block
 HTML block
 ```
 <div class="styles-block">
-    <div class="img-style-block"><img src="RELATIVE PATH TO /asset/img/hawaiian-music.png" /></div>
+    <div class="img-style-block"><img src="/themes/hearing-the-americas/asset/img/hawaiian-music.png" /></div>
 
     <div class="style-p">
         <h2 style="color: #b13a1a;">Hawaiian Music</h2>
 
-        <p>By the time that Hawaii became a colonial possession of the United States, local musicians had developed a
-            distinctive style which would soon become extremely important to popular music worldwide. This style
-            featured the ukelele annd the lap-steel guitar, a regular guitar laid flat on the musicians lap and fretted
-            with a steel bar.</p>
+        <p>By the time that Hawaii became a colonial possession of the United States, local musicians had developed a distinctive style which would soon become extremely important to popular music worldwide. This style featured the ukelele annd the lap-steel guitar, a regular guitar laid flat on the musicians lap and fretted with a steel bar.</p>
     </div>
 </div>
 ```
