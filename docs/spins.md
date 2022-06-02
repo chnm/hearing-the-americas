@@ -31,7 +31,7 @@ HTML Block - Banner
 ```
 END HTML Block
 
-HTML Block - Shelf 1
+HTML Block - SHELF 1
 ```
 <div class="shelf">
     <div class="records">
@@ -92,52 +92,144 @@ HTML Block - Shelf 1
     </div>
 
     <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
-            src="http://localhost:8888/omeka-s/files/asset/98103261e2f9c35c7d8ae5dec37d74d03a00f3f7.png"
+            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/shelf.png"
             style="width: 100%;" /></div>
 </div>
 ```
 END HTML Block
 
-HTML Block
+HTML Block - SHELF 2
 ```
 <div class="shelf">
-<div class="records">
-<div class="vinyl"><img src="http://localhost:8888/omeka-s/files/asset/13ebb05eeedce757ca5311dbe17d327c231a06e4.png" /></div>
+    <div class="records">
+        <div class="vinyl"><img
+                src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/record2-2.png" /></div>
 
-<div class="flip-card">
-<div class="flip-card-inner">
-<div class="flip-card-front"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/33f59fc4ce72e07e45431f2b6ebea0d57724f791.png" /></div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin5.png" />
+                </div>
 
-<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/jazz-latin-america"><img alt="Avatar" src="	http://localhost:8888/omeka-s/files/asset/8313740adaab4aa049092059d9d02ec64b62eeac.png" /></a></div>
-</div>
-</div>
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/jazz-latin-america"><img alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back5.png" /></a>
+                </div>
+            </div>
+        </div>
 
-<div class="flip-card">
-<div class="flip-card-inner">
-<div class="flip-card-front"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/09886f67e4503be68572217d064041f95e4121d7.png" /></div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin6.png" />
+                </div>
 
-<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-first-star"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/f32a183ae849df0a31e3da24d88e96f82c375886.png" /></a></div>
-</div>
-</div>
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-first-star"><img alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back6.png" /></a>
+                </div>
+            </div>
+        </div>
 
-<div class="flip-card">
-<div class="flip-card-inner">
-<div class="flip-card-front"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/0d9bcbbf51aaca1397ac12f9d1f77271e5ae1fea.png" /></div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin7.png" />
+                </div>
 
-<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/blackface"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/2b10f718e0950f80c9403de972ff168f47318a19.png" /></a></div>
-</div>
-</div>
+                <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/blackface"><img
+                            alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back7.png" /></a>
+                </div>
+            </div>
+        </div>
 
-<div class="flip-card">
-<div class="flip-card-inner">
-<div class="flip-card-front"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/537db8be488dfc9463d2d578a39777eae36de140.png" /></div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin8.png" />
+                </div>
 
-<div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/stroh-violin"><img alt="Avatar" src="http://localhost:8888/omeka-s/files/asset/91dd3e5b293b038626801958e26266361aa14d4c.png" /></a></div>
-</div>
-</div>
-</div>
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/stroh-violin"><img alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back8.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><a href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img src="http://localhost:8888/omeka-s/files/asset/98103261e2f9c35c7d8ae5dec37d74d03a00f3f7.png" style="width: 100%;" /></a></div>
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><a
+            href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
+                src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/shelf.png"
+                style="width: 100%;" /></a></div>
+</div>
+```
+END HTML Block
+
+HTML Block - SHELF 3
+```
+<div class="shelf">
+    <div class="records">
+        <div class="vinyl"><img
+                src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/record3.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin9.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-kingofragtime"><img alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back9.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin10.png" />
+                </div>
+
+                <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-whatcity"><img
+                            alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back10.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin11.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/what-instrument"><img alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back11.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/front-spins/spin12.png" />
+                </div>
+
+                <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/year"><img
+                            alt="Avatar"
+                            src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/back-spins/back12.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><a
+            href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
+                src="https://github.com/chnm/hearing-the-americas/blob/css_test/asset/img/shelf.png"
+                style="width: 100%;" /></a></div>
 </div>
 ```
 END HTML Block
