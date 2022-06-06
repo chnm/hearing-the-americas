@@ -10,8 +10,8 @@ URL slug: styles
 HTML block
 ```
 <div class="styles-block">
-    <div class="img-style-block"><img
-            src="/themes/hearing-the-americas/asset/img/minstrelsy.png" /></div>
+    <div class="img-style-block"><a href="/s/the-americas/page/minstrelsy"><img
+            src="/themes/hearing-the-americas/asset/img/minstrelsy.png" /></a></div>
 
     <div class="style-p">
         <h2 style="color: #b13a1a;">Minstrelsy</h2>
