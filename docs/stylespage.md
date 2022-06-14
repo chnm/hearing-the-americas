@@ -7,6 +7,7 @@ Title: Styles
 URL slug: styles
 
 ==== STYLES PAGE LAYOUT ===
+
 MINSTRELSY
 HTML block
 ```
