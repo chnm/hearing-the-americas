@@ -1083,26 +1083,6 @@
         font-size: 15px;
     }
 
-    .vinyl img {
-        width: 330px;
-        height: 190px;
-    }
-
-
-    .records .flip-card .flip-card-inner .flip-card-front img {
-        width:220px;
-        height:210px;
-        border-radius: 200px;
-        z-index: -1;
-    }
-
-    .records .flip-card .flip-card-inner .flip-card-back img {
-        width:220px;
-        height:210px;
-        border-radius: 200px;
-        z-index: -1;
-    }
-
     .shelf {
         margin-bottom: 80px;
     }
@@ -1117,6 +1097,7 @@
         margin-left: 100px;
         margin-right: 100px;
     }
+
     .stack-bottom {
         display: flex;
         z-index: -1;
@@ -1130,6 +1111,7 @@
         align-items: center;
         margin-top: 215px;
         z-index: 9;
+        width: 350px;
     }
 
     .flip-card {
@@ -1187,51 +1169,54 @@
     .records {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
     }  
-    
+
+    .records-home {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }  
+
     /* Styles page */
 
     .styles-block {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         background-color: #fff;
-        height: 240px;
-        z-index: -2;
         margin-top: 10px;
         margin-bottom: 50px;
         margin-left: 100px;
         margin-right: 100px;
     }
 
-
     .styles-block p {
         font-family: "Crimson Text", serif;
-        font-size: 20px;
-        line-height: 30px;
-        margin-right: 150px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .styles-block h2 {
-        font-size: 25px;
-        margin-top: 40px;
+        font-size: 20px;
+        color: #b13a1a;
+        margin-left: 10px;
     }
 
-    .img-style-block {
-        position: relative;
-        width: 20%;
+    .style-img-square {
+        display: flex;
     }
 
-    .style-p {
-        width: 80%;
+    .style-img-rect {
+        display: none;
     }
 
-    /* .img-style-block img {
-  
-    } */
+
 }
 
 /* END MOBILE  */
@@ -1257,6 +1242,26 @@
 }
 
 @media screen and (min-width: 800px) {
+
+    .style-img-square {
+        display: none;
+        width: 240px;
+    }
+
+    .style-img-rect {
+        display: flex;
+    }
+
+    .styles-block {
+        flex-direction: column;
+    }
+
+    .styles-block p {
+        font-family: "Crimson Text", serif;
+        font-size: 18px;
+        line-height: 30px;
+        margin-right: 50px;
+    }
 
     .assets.hero-image-spins {
         width: calc(100% + 1.25%);
@@ -1868,28 +1873,36 @@
         flex-direction: row !important;
     }
 
-    .vinyl img {
-        width: 330px;
-        height: 190px;
-    } 
-
-    .records .flip-card .flip-card-inner .flip-card-front img {
-        width:220px;
-        height:210px;
-        border-radius: 200px;
-        z-index: -1;
-    }
-
-    .records .flip-card .flip-card-inner .flip-card-back img {
-        width:220px;
-        height:210px;
-        border-radius: 200px;
-        z-index: -1;
+    .style-p {
+        margin-left: 30px;
     }
 
 }
 
 @media screen and (min-width: 1200px) {
+
+    .style-img-square {
+        display: flex;
+    }
+
+    .style-img-rect {
+        display: none;
+    }
+
+    .styles-block .image-style img {
+        width: 300px !important;
+    }
+
+    .styles-block {
+        flex-direction: row;
+    }
+
+    .styles-block p {
+        font-family: "Crimson Text", serif;
+        font-size: 18px;
+        line-height: 30px;
+        margin-right: 90px;
+    }
 
     body {
         overflow-x: hidden;
@@ -2154,7 +2167,6 @@
     .div-banner {
         display: flex;
         flex-direction: row;
-        margin-bottom: 5px;
     }
 
     .div-banner h2 {
@@ -2199,25 +2211,9 @@
         font-size: 20px;
     }
 
-    .vinyl img {
-        width: 350px;
-        height: 190px;
+    .style-p {
+        margin-left: 30px;
     }
-
-    .records .flip-card .flip-card-inner .flip-card-front img {
-        width:190px;
-        height:190px;
-        border-radius: 200px;
-        z-index: -1;
-    }
-
-    .records .flip-card .flip-card-inner .flip-card-back img {
-        width:190px;
-        height:190px;
-        border-radius: 200px;
-        z-index: -1;
-    }
-
 }
 
 @media screen and (min-width: 1400px) {
@@ -2226,23 +2222,22 @@
         width: 15%;
     }
 
-    .vinyl img {
-        width: 295px;
-        height: 220px;
-        /* width: 330px;
-        height: 190px; */
+    .records-home .flip-card {
+        margin-bottom: 50px;
+        margin-right: 40px;
+        margin-top: 150px;
     }
 
-    .records .flip-card .flip-card-inner .flip-card-front img {
-        width:220px;
-        height:220px;
+    .records-home .flip-card .flip-card-inner .flip-card-front img {
+        width:280px;
+        height:270px;
         border-radius: 200px;
         z-index: -1;
     }
 
-    .records .flip-card .flip-card-inner .flip-card-back img {
-        width:220px;
-        height:220px;
+    .records-home .flip-card .flip-card-inner .flip-card-back img {
+        width:280px;
+        height:270px;
         border-radius: 200px;
         z-index: -1;
     }
