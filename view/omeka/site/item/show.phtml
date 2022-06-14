@@ -66,6 +66,10 @@ $subjectValues = $item->displaySubjectValues($page, 25, $property);
 </div>
 <?php endif; ?>
 
+<?php
+$showAttachedPages = $this->siteSetting('show_attached_pages', true);
+$sitePages = $resource->sitePages($site->id());
+?>
 <?php if ($showAttachedPages && $sitePages): ?>
 <div class="property">
     <h4><?php echo $this->translate('Site pages'); ?></h4>
