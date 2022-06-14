@@ -12,9 +12,9 @@ Recording Technologies
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/d2636660c47fd1c6341d8380072bd4a7458c9edd.jpg" /> <img
+        src="themes/hearing-the-americas/asset/img/notes-img/recording-tech.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8d3b24d808668c9a95dbb6dd656c542a39a68ccf.png" />
+        src="themes/hearing-the-americas/asset/img/notes-img/" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/note-technology">Recording Technologies</a></h2>
 
@@ -29,9 +29,9 @@ Race Records
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/a985233fe4046e44e65abab7707e37f0b5160d77.jpg" /> <img
+        src="themes/hearing-the-americas/asset/img/notes-img/race-records.JPG" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8d3b24d808668c9a95dbb6dd656c542a39a68ccf.png" />
+        src="themes/hearing-the-americas/asset/img/notes-img/" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/race-records">Race Records</a></h2>
 
@@ -47,9 +47,9 @@ Habanera
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/6bf11297493970463ebf6191a780980b68b4162e.jpg" /> <img
+        src="themes/hearing-the-americas/asset/img/notes-img/habanera.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8d3b24d808668c9a95dbb6dd656c542a39a68ccf.png" />
+        src="themes/hearing-the-americas/asset/img/notes-img/" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/habanera">Habanera</a></h2>
 
@@ -65,9 +65,9 @@ Music Publishing
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/6ae4c288d47888b5c37541e0ef4f916e34776247.jpg" /> <img
+        src="themes/hearing-the-americas/asset/img/notes-img/music-publishing.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8d3b24d808668c9a95dbb6dd656c542a39a68ccf.png" />
+        src="themes/hearing-the-americas/asset/img/notes-img/" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/music-publishing">Music Publishing</a></h2>
 
@@ -83,9 +83,9 @@ Twelve-bar Blues
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/5b28493a533faf23ce3cfb9697955e147dad61c1.jpg" /> <img
+        src="themes/hearing-the-americas/asset/img/notes-img/twelve-bar-blues1.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8d3b24d808668c9a95dbb6dd656c542a39a68ccf.png" />
+        src="themes/hearing-the-americas/asset/img/notes-img/" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/twelve-bar-blues">Twelve-bar Blues</a></h2>
 
@@ -100,9 +100,9 @@ Syncopation
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/b0e658a6d79a8927b632bd8a9a777f837236ae27.jpg" /> <img
+        src="themes/hearing-the-americas/asset/img/notes-img/syncopation.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8d3b24d808668c9a95dbb6dd656c542a39a68ccf.png" />
+        src="themes/hearing-the-americas/asset/img/notes-img/" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/syncopation">Syncopation</a></h2>
 
@@ -117,9 +117,9 @@ African-American Theater Circuits
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/23eee10ab23e46260762c15bbba428a1966d0250.jpg" /> <img
+        src="themes/hearing-the-americas/asset/img/notes-img/theater-circuits.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8d3b24d808668c9a95dbb6dd656c542a39a68ccf.png" />
+        src="themes/hearing-the-americas/asset/img/notes-img/" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/theater-circuits">African-American Theater
                 Circuits</a></h2>
