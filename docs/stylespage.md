@@ -30,9 +30,9 @@ TANGO
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/dbca951d20065c2f247467610e5920abfe4d0f34.jpg" /> <img
+        src="/themes/hearing-the-americas/asset/img/styles-img/tango.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/c6e87d1e2f0682920f4bc96b9e2993a582b78970.jpg" />
+        src="/themes/hearing-the-americas/asset/img/styles-img/tango-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/tango">Tango</a></h2>
 
@@ -49,9 +49,9 @@ HAWAIIAN MUSIC
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/2e0aa7c992adfdaea7ed6f21d845627c2655443c.jpg" /> <img
+        src="/themes/hearing-the-americas/asset/img/styles-img/hawaiian-music3.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/ffd554ec1d82f75de78d1efab9214ba59caa64bc.jpg" />
+        src="/themes/hearing-the-americas/asset/img/styles-img/hawaii-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/hawaiian-music">Hawaiian Music</a></h2>
 
@@ -68,9 +68,9 @@ ETHNIC HUMOR
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/2a06d92e6bbcec99654bd97db219dcd7c093a588.jpg" /> <img
+        src="/themes/hearing-the-americas/asset/img/styles-img/ethnic-humor.jpg"/> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/a43a7ea1894573c9570571a0c6771d6b280e8a0b.jpg" />
+        src="/themes/hearing-the-americas/asset/img/styles-img/ethnic-humor-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/ethnic-humor">Ethnic humor</a></h2>
 
@@ -86,9 +86,9 @@ RAGTIME
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/57f94e8be0bcf74b18c1e424cb372f3893cb57ac.jpg" /> <img
+        src="/themes/hearing-the-americas/asset/img/styles-img/ragtime.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/e280ebc20c191e4cfae31e4fbaa81e4c4b35b246.jpg" />
+        src="/themes/hearing-the-americas/asset/img/styles-img/ragtime2-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/ragtime">Ragtime</a></h2>
 
@@ -103,15 +103,14 @@ VAUDEVILLE
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/a6105c2e52df0dcd8759a329f7e906b43eda8bd0.jpg" /> <img
+        src="/themes/hearing-the-americas/asset/img/styles-img/vaudeville2.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/97e518850d94ba9e0e92f47625a77e7e1287eecb.jpg" />
+        src="/themes/hearing-the-americas/asset/img/styles-img/vaudeville-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/vaudeville">Vaudeville</a></h2>
 
-        <p>Like other sectors of the American economy, theaters in this period were increasingly organized into
-            quasi-monopolies, &ldquo;circuits&rdquo; that controlled entertainment in cities and towns across the
-            country. Vaudeville offered standard formulas for performance.</p>
+        <p>Like other sectors of the American economy, theaters in this period were increasingly organized into quasi-monopolies, “circuits” that controlled entertainment in cities and towns across the country. Vaudeville offered standard formulas for performance.</p>
+        
     </div>
 </div>
 ```
@@ -121,16 +120,14 @@ CLASSICAL
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="http://localhost:8888/omeka-s/files/asset/e6a1b06bd8dc8863890238512b6ffeda74c826c1.jpg" /> <img
+        src="/themes/hearing-the-americas/asset/img/styles-img/classic-music.jpg" /> <img
         class="style-img-rect"
-        src="http://localhost:8888/omeka-s/files/asset/8859952a447d404fc31568359c763d37516faf72.jpg" />
+        src="/themes/hearing-the-americas/asset/img/styles-img/classical-music-800.jpg" />
     <div class="style-p">
         <h2 style="color: #b13a1a;"><a href="https://hearingtheamericas.org/s/the-americas/page/classical">Classical
                 Music</a></h2>
 
-        <p>Late 19th and early 20th century Americans understood art and music in terms of &ldquo;high&rdquo; and
-            &ldquo;low&rdquo;: high culture for the educated elite, low culture for the masses. Classical music as
-            defined by record companies was a central part of high culture.</p>
+        <p>Late 19th and early 20th century Americans understood art and music in terms of “high” and “low”: high culture for the educated elite, low culture for the masses. Classical music as defined by record companies was a central part of high culture.</p>
     </div>
 </div>
 ```
