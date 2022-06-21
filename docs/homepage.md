@@ -17,7 +17,7 @@ HTML block - INTRO
 <p>explores the early decades of the recording industry (1898-1925), posing new questions about the origins of popular music.</p>
 <a class="button" href="#get-started-here" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #b13a1a; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px;">Get Started</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="button" href="#" style="border: 2px solid #B13A1A; padding-top: 2px; padding-bottom: 2px; padding-left: 15px; padding-right: 15px; background-color: #F6F1E9; color: #B13A1A; border-radius: 4px; display: inline-block; cursor: pointer; font-size: 15px; font-weight: 600;">About</a></div>
 
-<div id="right-intro"><img alt="" src="</themes/hearing/asset/img/HtA-Vinyl-icon.png>" style="width: 450px; padding-top: 30px; padding-right: 100px;" /></div>
+<div id="right-intro"><img alt="" src="</themes/[THEMEFOLDER]/asset/img/HtA-Vinyl-icon.png>" style="width: 450px; padding-top: 30px; padding-right: 100px;" /></div>
 </div>
 <script> 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -132,12 +132,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="Q: What was the dance craze that inspired W.C. Handy's legendary St. Louis Blues (1914)?"
-                    src="/themes/hearing/asset/img/front-spins/spin1.png"
+                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin1.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a href="/s/the-americas/page/q-dancecraze"><img
                         alt="A: The tango. Click to learn more"
-                        src="/themes/hearing/asset/img/back-spins/back1.png"
+                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back1.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>
@@ -145,12 +145,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="What was the most popular kind of band in America and worldwide in 1900?"
-                    src="/themes/hearing/asset/img/front-spins/spin2.png"
+                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin2.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a href="/s/the-americas/page/q-popular-band"><img
                         alt="A: The brass band. click to learn more"
-                        src="/themes/hearing/asset/img/back-spins/back2.png"
+                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back2.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>
@@ -158,12 +158,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="How did recording transform music listening?"
-                    src="/themes/hearing/asset/img/front-spins/spin3.png"
+                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin3.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
                     href="/s/the-americas/page/recording-transform"><img alt="A: It allowed people to listen in private. Click to learn more"
-                        src="/themes/hearing/asset/img/back-spins/back3.png"
+                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back3.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>
@@ -171,12 +171,12 @@ HTML Block - RECORDS
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="What role did Black people from the British Caribbean play in the Jazz Age?"
-                    src="/themes/hearing/asset/img/front-spins/spin4.png"
+                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin4.png"
                     style="border-radius: 50%;z-index: -1;" /></div>
 
             <div class="flip-card-back"><a
                     href="/s/the-americas/page/british-caribbean"><img alt="A: Migration patterns and the record business made them central. Click to learn more"
-                        src="/themes/hearing/asset/img/back-spins/back4.png"
+                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back4.png"
                         style="border-radius: 50%;z-index: -1;" /></a></div>
         </div>
     </div>
@@ -187,6 +187,6 @@ END HTML Block
 
 HTML Block
 ```
-<p><a class="button" href="http://localhost:8888/omeka-s/s/hearing-the-americas-preprod/page/spins" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #131B1B; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px; margin-left: 45%; margin-top: 30px; margin-bottom: 40px;">More Spins</a></p>
+<p><a class="button" href="/s/the-americas/page/spins" style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; background-color: #131B1B; color: #fff; border-radius: 4px; display: inline-block; border: 0; cursor: pointer; font-size: 15px; margin-left: 45%; margin-top: 30px; margin-bottom: 40px;">More Spins</a></p>
 ```
 END HTML Block
