@@ -128,7 +128,7 @@ END HTML Block
 
 HTML Block - RECORDS
 ```
-<div class="records">
+<div class="records-welcome">
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front"><img alt="Q: What was the dance craze that inspired W.C. Handy's legendary St. Louis Blues (1914)?"
