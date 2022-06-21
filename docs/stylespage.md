@@ -12,9 +12,9 @@ MINSTRELSY
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="/themes/hearing-the-americas/asset/img/styles-img/minstrelsy.jpg" /> <img
+        src="/themes/hearing_americas/asset/img/styles-img/minstrelsy.jpg" /> <img
         class="style-img-rect"
-        src="/themes/hearing-the-americas/asset/img/styles-img/minstrelsy-800.png" />
+        src="/themes/hearing_americas/asset/img/styles-img/minstrelsy-800.png" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/minstrelsy">Minstrelsy</a></h2>
 
@@ -30,9 +30,9 @@ TANGO
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="/themes/hearing-the-americas/asset/img/styles-img/tango.jpg" /> <img
+        src="/themes/hearing_americas/asset/img/styles-img/tango.jpg" /> <img
         class="style-img-rect"
-        src="/themes/hearing-the-americas/asset/img/styles-img/tango-800.jpg" />
+        src="/themes/hearing_americas/asset/img/styles-img/tango-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/tango">Tango</a></h2>
 
@@ -49,9 +49,9 @@ HAWAIIAN MUSIC
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="/themes/hearing-the-americas/asset/img/styles-img/hawaiian-music3.jpg" /> <img
+        src="/themes/hearing_americas/asset/img/styles-img/hawaiian-music3.jpg" /> <img
         class="style-img-rect"
-        src="/themes/hearing-the-americas/asset/img/styles-img/hawaii-800.jpg" />
+        src="/themes/hearing_americas/asset/img/styles-img/hawaii-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/hawaiian-music">Hawaiian Music</a></h2>
 
@@ -68,9 +68,9 @@ ETHNIC HUMOR
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="/themes/hearing-the-americas/asset/img/styles-img/ethnic-humor.jpg"/> <img
+        src="/themes/hearing_americas/asset/img/styles-img/ethnic-humor.jpg"/> <img
         class="style-img-rect"
-        src="/themes/hearing-the-americas/asset/img/styles-img/ethnic-humor-800.jpg" />
+        src="/themes/hearing_americas/asset/img/styles-img/ethnic-humor-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/ethnic-humor">Ethnic humor</a></h2>
 
@@ -86,9 +86,9 @@ RAGTIME
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="/themes/hearing-the-americas/asset/img/styles-img/ragtime.jpg" /> <img
+        src="/themes/hearing_americas/asset/img/styles-img/ragtime.jpg" /> <img
         class="style-img-rect"
-        src="/themes/hearing-the-americas/asset/img/styles-img/ragtime2-800.jpg" />
+        src="/themes/hearing_americas/asset/img/styles-img/ragtime2-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/ragtime">Ragtime</a></h2>
 
@@ -103,9 +103,9 @@ VAUDEVILLE
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="/themes/hearing-the-americas/asset/img/styles-img/vaudeville2.jpg" /> <img
+        src="/themes/hearing_americas/asset/img/styles-img/vaudeville2.jpg" /> <img
         class="style-img-rect"
-        src="/themes/hearing-the-americas/asset/img/styles-img/vaudeville-800.jpg" />
+        src="/themes/hearing_americas/asset/img/styles-img/vaudeville-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/vaudeville">Vaudeville</a></h2>
 
@@ -120,9 +120,9 @@ CLASSICAL
 HTML block
 ```
 <div class="styles-block"><img class="style-img-square"
-        src="/themes/hearing-the-americas/asset/img/styles-img/classic-music.jpg" /> <img
+        src="/themes/hearing_americas/asset/img/styles-img/classic-music.jpg" /> <img
         class="style-img-rect"
-        src="/themes/hearing-the-americas/asset/img/styles-img/classical-music-800.jpg" />
+        src="/themes/hearing_americas/asset/img/styles-img/classical-music-800.jpg" />
     <div class="style-p">
         <h2 style="color: #b13a1a;"><a href="https://hearingtheamericas.org/s/the-americas/page/classical">Classical
                 Music</a></h2>
