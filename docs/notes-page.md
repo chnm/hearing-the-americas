@@ -14,7 +14,7 @@ HTML block
 <div class="styles-block"><img class="style-img-square"
         src="themes/hearing-the-americas/asset/img/notes-img/recording-tech.jpg" /> <img
         class="style-img-rect"
-        src="themes/hearing-the-americas/asset/img/notes-img/" />
+        src="themes/hearing-the-americas/asset/img/notes-img/recordtech-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/note-technology">Recording Technologies</a></h2>
 
@@ -31,7 +31,7 @@ HTML block
 <div class="styles-block"><img class="style-img-square"
         src="themes/hearing-the-americas/asset/img/notes-img/race-records.JPG" /> <img
         class="style-img-rect"
-        src="themes/hearing-the-americas/asset/img/notes-img/" />
+        src="themes/hearing-the-americas/asset/img/notes-img/race-record-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/race-records">Race Records</a></h2>
 
@@ -49,7 +49,7 @@ HTML block
 <div class="styles-block"><img class="style-img-square"
         src="themes/hearing-the-americas/asset/img/notes-img/habanera.jpg" /> <img
         class="style-img-rect"
-        src="themes/hearing-the-americas/asset/img/notes-img/" />
+        src="themes/hearing-the-americas/asset/img/notes-img/habanera-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/habanera">Habanera</a></h2>
 
@@ -67,7 +67,7 @@ HTML block
 <div class="styles-block"><img class="style-img-square"
         src="themes/hearing-the-americas/asset/img/notes-img/music-publishing.jpg" /> <img
         class="style-img-rect"
-        src="themes/hearing-the-americas/asset/img/notes-img/" />
+        src="themes/hearing-the-americas/asset/img/notes-img/musicpub-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/music-publishing">Music Publishing</a></h2>
 
@@ -85,7 +85,7 @@ HTML block
 <div class="styles-block"><img class="style-img-square"
         src="themes/hearing-the-americas/asset/img/notes-img/twelve-bar-blues1.jpg" /> <img
         class="style-img-rect"
-        src="themes/hearing-the-americas/asset/img/notes-img/" />
+        src="themes/hearing-the-americas/asset/img/notes-img/twelve-bar-blues-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/twelve-bar-blues">Twelve-bar Blues</a></h2>
 
@@ -102,7 +102,7 @@ HTML block
 <div class="styles-block"><img class="style-img-square"
         src="themes/hearing-the-americas/asset/img/notes-img/syncopation.jpg" /> <img
         class="style-img-rect"
-        src="themes/hearing-the-americas/asset/img/notes-img/" />
+        src="themes/hearing-the-americas/asset/img/notes-img/syncopation-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/syncopation">Syncopation</a></h2>
 
@@ -119,7 +119,7 @@ HTML block
 <div class="styles-block"><img class="style-img-square"
         src="themes/hearing-the-americas/asset/img/notes-img/theater-circuits.jpg" /> <img
         class="style-img-rect"
-        src="themes/hearing-the-americas/asset/img/notes-img/" />
+        src="themes/hearing-the-americas/asset/img/notes-img/theater-circuits-800.jpg" />
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/theater-circuits">African-American Theater
                 Circuits</a></h2>
