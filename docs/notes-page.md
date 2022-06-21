@@ -53,8 +53,8 @@ HTML block
     <div class="style-p">
         <h2><a href="https://hearingtheamericas.org/s/the-americas/page/habanera">Habanera</a></h2>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta impedit quis tenetur fuga id
-            expedita fugit at. Ipsa delectus, ex velit nemo tempora doloribus voluptatum beatae sunt dolorem ducimus.
+        <p>This distinctive rhythmic pattern from Cuba that swept Latin America, the US and the rest of the world, 
+        shaping multiple music and dance genres.
         </p>
     </div>
 </div>
