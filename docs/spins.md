@@ -96,6 +96,83 @@ HTML Block - SHELF 1
             style="width: 100%;" /></div>
 </div>
 ```
+```
+<div class="shelf2">
+    <div class="records">
+        <div class="vinyl"><img
+                src="/themes/hearing_americas/asset/img/record1-2.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="What was the dance craze that inspired W.C. Handy's legendary St Louis Blues (1914)?"
+                        src="/themes/hearing_americas/asset/img/front-spins/CHANGE%20THE%20YELLOW/spin1-yellow.png"/>
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Answer: the tango"
+                            src="/themes/hearing_americas/asset/img/back-spins/back1.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="What was the most popular kind of band in American and worldwide in 1900?"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin2.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-popular-band"><img alt="Answer: the brass band"
+                            src="/themes/hearing_americas/asset/img/back-spins/back2.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
+            src="/themes/hearing_americas/asset/img/shelf.png"
+            style="width: 100%;" /></div>
+</div>
+```
+
+```
+<div class="shelf3">
+    <div class="records">
+        <div class="vinyl"><img
+                src="/themes/hearing_americas/asset/img/record1-2.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin3.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back3.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin4.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back4.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
+            src="/themes/hearing_americas/asset/img/shelf.png"
+            style="width: 100%;" /></div>
+</div>
+```
 END HTML Block
 
 HTML Block - SHELF 2
