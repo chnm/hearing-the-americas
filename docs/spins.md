@@ -241,6 +241,84 @@ HTML Block - SHELF 2
                 style="width: 100%;" /></a></div>
 </div>
 ```
+```
+<div class="shelf2">
+    <div class="records">
+        <div class="vinyl"><img
+                src="/themes/hearing_americas/asset/img/record2-2.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin5.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/jazz-latin-america"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back5.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin6.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-first-star"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back6.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><a
+            href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
+                src="/themes/hearing_americas/asset/img/shelf.png"
+                style="width: 100%;" /></a></div>
+</div>
+```
+```
+<div class="shelf3">
+    <div class="records">
+        <div class="vinyl"><img
+                src="/themes/hearing_americas/asset/img/record2-2.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin7.png" />
+                </div>
+
+                <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/blackface"><img
+                            alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back7.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin8.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/stroh-violin"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back8.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><a
+            href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
+                src="/themes/hearing_americas/asset/img/shelf.png"
+                style="width: 100%;" /></a></div>
+</div>
+```
 END HTML Block
 
 HTML Block - SHELF 3
