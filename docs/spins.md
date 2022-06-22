@@ -609,3 +609,145 @@ HTML Block - SHELF 4
 </div>
 ```
 END HTML Block
+
+HTML Block - SHELF 5
+```
+<div class="shelf">
+    <div class="records">
+        <div class="vinyl"><img
+                src="http://localhost:8888/omeka-s/files/asset/49942fa3ecea09e32964fbdc910d630a51957c9f.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/6a50c3e33d43ff2ac078f7bd0ec2435850e49802.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/135a756bdd8c9b8453c42a9381def196f08acca4.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/93e7a2e9bee36f61831381119cbae2391662a866.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-popular-band"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/5b52009ff3a53e4ec8bdd7983aa791aee5ec161f.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/525c075deb64fb63351651c9f0f22515a90d3b30.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/7e8859ff2598274069483dd54e2971296cf12aa8.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/f57f8d89e2457876f84d70088d0c063dab975c5e.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/c9a50d284acbf88e0e0382e918ea88d559ca7b5d.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
+            src="http://localhost:8888/omeka-s/files/asset/98103261e2f9c35c7d8ae5dec37d74d03a00f3f7.png"
+            style="width: 100%;" /></div>
+</div>
+
+<div class="shelf2">
+    <div class="records">
+        <div class="vinyl"><img
+                src="http://localhost:8888/omeka-s/files/asset/49942fa3ecea09e32964fbdc910d630a51957c9f.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/6a50c3e33d43ff2ac078f7bd0ec2435850e49802.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/135a756bdd8c9b8453c42a9381def196f08acca4.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/93e7a2e9bee36f61831381119cbae2391662a866.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-popular-band"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/5b52009ff3a53e4ec8bdd7983aa791aee5ec161f.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
+            src="http://localhost:8888/omeka-s/files/asset/98103261e2f9c35c7d8ae5dec37d74d03a00f3f7.png"
+            style="width: 100%;" /></div>
+</div>
+
+<div class="shelf3">
+    <div class="records">
+        <div class="vinyl"><img
+                src="http://localhost:8888/omeka-s/files/asset/49942fa3ecea09e32964fbdc910d630a51957c9f.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/525c075deb64fb63351651c9f0f22515a90d3b30.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/7e8859ff2598274069483dd54e2971296cf12aa8.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="http://localhost:8888/omeka-s/files/asset/f57f8d89e2457876f84d70088d0c063dab975c5e.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"><img alt="Avatar"
+                            src="http://localhost:8888/omeka-s/files/asset/c9a50d284acbf88e0e0382e918ea88d559ca7b5d.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
+            src="http://localhost:8888/omeka-s/files/asset/98103261e2f9c35c7d8ae5dec37d74d03a00f3f7.png"
+            style="width: 100%;" /></div>
+</div>
+```
+END HTML Block
+
