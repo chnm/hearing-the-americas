@@ -387,4 +387,43 @@ HTML Block - SHELF 3
                 style="width: 100%;" /></a></div>
 </div>
 ```
+```
+<div class="shelf2">
+    <div class="records">
+        <div class="vinyl"><img
+                src="/themes/hearing_americas/asset/img/record3.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin9.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/q-kingofragtime"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back9.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin10.png" />
+                </div>
+
+                <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/q-whatcity"><img
+                            alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back10.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><a
+            href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"><img
+                src="/themes/hearing_americas/asset/img/shelf.png"
+                style="width: 100%;" /></a></div>
+</div>
+```
 END HTML Block
