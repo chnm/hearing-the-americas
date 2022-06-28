@@ -16,13 +16,12 @@ Facet: A value facet
 - *contains*
 - Single (list)
 - Values should be the exact names of the item sets for the different scenes. They are as follows:
-
-Blues
-Brazilian Music
-Ethnic Humor
-Hawaiian Music
-Jazz
-Minstrelsy
-Ragtime
-Tango
-Vaudeville
+  - Blues
+  - Brazilian Music
+  - Ethnic Humor
+  - Hawaiian Music
+  - Jazz
+  - Minstrelsy
+  - Ragtime
+  - Tango
+  - Vaudeville
