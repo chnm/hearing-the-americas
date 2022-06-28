@@ -168,8 +168,6 @@ END HTML Block
                 src="/themes/hearing_americas/asset/img/shelf.png"
                 style="width: 100%;" /></a></div>
 </div>
-```
-```
 <div class="shelf2">
     <div class="records">
         <div class="vinyl"><img
@@ -207,8 +205,6 @@ END HTML Block
                 src="/themes/hearing_americas/asset/img/shelf.png"
                 style="width: 100%;" /></a></div>
 </div>
-```
-```
 <div class="shelf3">
     <div class="records">
         <div class="vinyl"><img
