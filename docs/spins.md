@@ -400,7 +400,7 @@ END HTML Block
                 style="width: 100%;" /></a></div>
 </div>
 
-<div class="shelf">
+<div class="shelf3">
     <div class="records">
         <div class="vinyl"><img
                 src="/themes/hearing_americas/asset/img/record3.png" /></div>
