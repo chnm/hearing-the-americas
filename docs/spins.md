@@ -719,7 +719,7 @@ HTML Block - SHELF 4
     </div>
 
     <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
-            src="/themes/hearing_americas/asset/98103261e2f9c35c7d8ae5dec37d74d03a00f3f7.png"
+            src="/themes/hearing_americas/asset/img/shelf.png"
             style="width: 100%;" /></div>
 </div>
 ```
