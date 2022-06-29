@@ -618,3 +618,75 @@ END HTML Block
 ```
 END HTML Block
 
+## HTML Block - SHELF 5
+HTML Block
+```
+<div class="shelf">
+    <div class="records">
+        <div class="vinyl"><img src="/themes/hearing_americas/asset/img/record6-2.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/CHANGE-THE-YELLOW/spins6-yellow.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/memphis-blues"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back21.png" /></a></div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin22.png" /></div>
+
+                <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/bolero"><img
+                            alt="Avatar" src="/themes/hearing_americas/asset/img/back-spins/back22.png" /></a></div>
+            </div>
+        </div>
+
+        <div class="flip-card">&nbsp;</div>
+
+        <div class="flip-card">&nbsp;</div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
+            src="/themes/hearing_americas/asset/img/shelf.png" style="width: 100%;" /></div>
+</div>
+
+<div class="shelf2">
+    <div class="records">
+        <div class="vinyl"><img src="/themes/hearing_americas/asset/img/record6-2.png" /></div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/CHANGE-THE-YELLOW/spins6-yellow.png" />
+                </div>
+
+                <div class="flip-card-back"><a
+                        href="https://hearingtheamericas.org/s/the-americas/page/memphis-blues"><img alt="Avatar"
+                            src="/themes/hearing_americas/asset/img/back-spins/back21.png" /></a></div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"><img alt="Avatar"
+                        src="/themes/hearing_americas/asset/img/front-spins/spin22.png" /></div>
+
+                <div class="flip-card-back"><a href="https://hearingtheamericas.org/s/the-americas/page/bolero"><img
+                            alt="Avatar" src="/themes/hearing_americas/asset/img/back-spins/back22.png" /></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stack-bottom" style="margin-left: 30px; margin-right: 30px;"><img
+            src="/themes/hearing_americas/asset/img/shelf.png" style="width: 100%;" /></div>
+</div>
+```
+END HTML Block
+
+
