@@ -1161,10 +1161,6 @@
     }
 
     .vinyl {
-        /* display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center; */
         margin-top: 215px;
         z-index: 9;
         width: 280px;
@@ -1227,182 +1223,182 @@
     }
 
     .disc-yellow {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/a61f54e66d881e3b2b21526107200043cba1e9d7.png");
+        background-image: url("/themes/hearing_americas/asset/img/front-spins/spin-yellow.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-blue {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/410506d0ba4039d92ed652c2747db48625941d06.png");
+        background-image: url("/themes/hearing_americas/asset/img/front-spins/spin-blue.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-green {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/79026cb48b8c53028c872699b987a421d99ad399.png");
+        background-image: url("/themes/hearing_americas/asset/img/front-spins/spin-green.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-red {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/5cadea8a1051c6c9b74482503891bd5bbbce0ff7.png");
+        background-image: url("/themes/hearing_americas/asset/img/front-spins/spin-red.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-1-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/b1eb7db2fc687c1efd2e3756e2912793c62ee747.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-1.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-2-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/626002a16a7954198e25e38ea33d77023adc7a91.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-2.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-3-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/27e45e2ba2bc624c6bd90e072fde3eb6e0149821.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-3.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-4-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/1cc78f689012c5e5bd3ca0bb9011eff32020e527.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-4.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-5-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/eccbe7f054ada1b404a3f817ec6a9d312b537130.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-5.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-6-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/5d24f465675fd21fdd75dcc7b2cc1aa644334f05.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-6.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-7-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/829656ce624e60a5673d5bc4e39be19bc147a944.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-7.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-8-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/52cfedd9fb212c45ab60948679b265899488bd25.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-8.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-9-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/96475466bea5713c55b89fc5bdf020e146ab1f38.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-9.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-10-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/37ba543a90ce5a1303590b4eba2f961f6d07f8bb.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-10.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-11-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/5251e537f2d41592b0e7bd1ffd7e9c3907cd8d5f.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-11.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-12-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/722f93a3656f29d2182b08e569859d3672cc5028.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-12.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-13-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/bc272c530003130a8fec4253f83498569a8ee904.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-13.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-14-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/38857676d63ad5e30a73ded7d9cf07767cebbfd9.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-14.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-15-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/de638692a68219ecaabd86aa9da278f7c92777f4.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-15.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
-    
+
     .disc-16-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/d629fb3cb9962878949138a2426ed2240c65cc8f.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-16.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-17-back {
-        background-image: url("	http://localhost:8888/omeka-s/files/asset/de0f12121b1a2236238ccb2ed45b10825a2d89ef.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-17.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-18-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/829a61e933f8d67297febbf3d5c5834e46ae167d.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-18.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-19-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/339d4b80dcaf143b5f3ba5eade76c01d1b360391.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-19.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-20-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/2169e2fbf0c73f326ee590a02b93bd52e8cdcd44.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-20.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-21-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/09db757b5021525ab3bf012982922d361a6d3e2e.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-21.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
     .disc-22-back {
-        background-image: url("http://localhost:8888/omeka-s/files/asset/e9792b184ffc013ced9b56f41810e564c2648e24.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-22.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
