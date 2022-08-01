@@ -1014,6 +1014,14 @@
         background: #F6F1E9;
     }
 
+    blockquote {
+        display: block;
+        max-width: 650px;
+        margin-left: 28%;
+        margin-right: auto;
+        width: 60%;
+    }
+
     #spin-card {
         position: relative;
         padding: 20px;
