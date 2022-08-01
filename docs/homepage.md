@@ -131,53 +131,72 @@ HTML Block - RECORDS
 <div class="records-welcome">
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="Q: What was the dance craze that inspired W.C. Handy's legendary St. Louis Blues (1914)?"
-                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin1.png"
-                    style="border-radius: 50%;z-index: -1;" /></div>
+            <div class="flip-card-front disc-yellow">
+                <h3 style="font-size: 14px; margin-left: 20px; margin-right: 20px; line-height: 20px;">What was the
+                    dance craze that inspired W.C. Handy&rsquo;s legendary &ldquo;St. Louis Blues&rdquo; (1914)?</h3>
+            </div>
 
-            <div class="flip-card-back"><a href="/s/the-americas/page/q-dancecraze"><img
-                        alt="A: The tango. Click to learn more"
-                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back1.png"
-                        style="border-radius: 50%;z-index: -1;" /></a></div>
+            <div class="flip-card-back disc-1-back">
+                <h3 style="line-height: 10px;">A: The tango</h3>
+                <a class="button" draggable="false"
+                    href="https://hearingtheamericas.org/s/the-americas/page/q-dancecraze"
+                    style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; color: #fff; border-radius: 30px; display: inline-block; border: 2px solid #fff; background-color: transparent; cursor: pointer; font-size: 15px;"><b>learn
+                        more</b></a>
+            </div>
         </div>
     </div>
 
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="What was the most popular kind of band in America and worldwide in 1900?"
-                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin2.png"
-                    style="border-radius: 50%;z-index: -1;" /></div>
+            <div class="flip-card-front disc-blue">
+                <h3 style="font-size: 14px; margin-left: 20px; margin-right: 20px; line-height: 20px;">What was the most
+                    popular kind of band in America and worldwide in 1900?</h3>
+            </div>
 
-            <div class="flip-card-back"><a href="/s/the-americas/page/q-popular-band"><img
-                        alt="A: The brass band. click to learn more"
-                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back2.png"
-                        style="border-radius: 50%;z-index: -1;" /></a></div>
+            <div class="flip-card-back disc-2-back">
+                <h3 style="line-height: 9.5px;">A: The brass band</h3>
+                <a class="button" draggable="false"
+                    href="https://hearingtheamericas.org/s/the-americas/page/q-popular-band"
+                    style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; color: #fff; border-radius: 30px; display: inline-block; border: 2px solid #fff; background-color: transparent; cursor: pointer; font-size: 15px;"><b>learn
+                        more</b></a>
+            </div>
         </div>
     </div>
 
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="How did recording transform music listening?"
-                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin3.png"
-                    style="border-radius: 50%;z-index: -1;" /></div>
+            <div class="flip-card-front disc-green">
+                <h3 style="font-size: 14px; margin-left: 20px; margin-right: 20px; line-height: 20px;">How did recording
+                    transform music listening?</h3>
+            </div>
 
-            <div class="flip-card-back"><a
-                    href="/s/the-americas/page/recording-transform"><img alt="A: It allowed people to listen in private. Click to learn more"
-                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back3.png"
-                        style="border-radius: 50%;z-index: -1;" /></a></div>
+            <div class="flip-card-back disc-3-back">
+                <h3 style="line-height: 11px; font-size: 10px; padding-left: 20px; padding-right: 20px;">A: It allowed
+                    for repeated listening, provided public access to types of music that were previously restricted to
+                    the elite, and brought professionally performed music into the home.</h3>
+                <a class="button" draggable="false"
+                    href="https://hearingtheamericas.org/s/the-americas/page/recording-transform"
+                    style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; color: #fff; border-radius: 30px; display: inline-block; border: 2px solid #fff; background-color: transparent; cursor: pointer; font-size: 15px;"><b>learn
+                        more</b></a>
+            </div>
         </div>
     </div>
 
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front"><img alt="What role did Black people from the British Caribbean play in the Jazz Age?"
-                    src="/themes/[THEMEFOLDER]/asset/img/front-spins/spin4.png"
-                    style="border-radius: 50%;z-index: -1;" /></div>
+            <div class="flip-card-front disc-red">
+                <h3 style="font-size: 14px; margin-left: 20px; margin-right: 20px; line-height: 20px;">What role did
+                    Black people from the British Caribbean play in the Jazz Age?</h3>
+            </div>
 
-            <div class="flip-card-back"><a
-                    href="/s/the-americas/page/british-caribbean"><img alt="A: Migration patterns and the record business made them central. Click to learn more"
-                        src="/themes/[THEMEFOLDER]/asset/img/back-spins/back4.png"
-                        style="border-radius: 50%;z-index: -1;" /></a></div>
+            <div class="flip-card-back disc-4-back">
+                <h3 style="font-size: 14px; margin-left: 20px; margin-right: 20px; line-height: 20px;">A: Migration
+                    patterns and the record business made them central.</h3>
+                <a class="button" draggable="false"
+                    href="https://hearingtheamericas.org/s/the-americas/page/british-caribbean"
+                    style="padding-top: 3px; padding-bottom: 3px; padding-left: 12px; padding-right: 12px; color: #fff; border-radius: 30px; display: inline-block; border: 2px solid #fff; background-color: transparent; cursor: pointer; font-size: 15px;"><b>learn
+                        more</b></a>
+            </div>
         </div>
     </div>
 </div>
