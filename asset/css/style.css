@@ -723,6 +723,9 @@
         margin: auto;
         background-color: transparent;
         font-style: italic;
+        line-height: 23px;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
     .file a,
