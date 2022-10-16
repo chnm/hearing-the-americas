@@ -1201,7 +1201,6 @@
         background-color: transparent;	
         width: 250px;	
         height: 100%;	
-        /* margin-top: 25px;	 */
         margin-bottom: 5%;
         perspective: 1000px;	
         padding-left: 5px;	
@@ -2213,7 +2212,6 @@
         margin-top: 3px;
     }
 
-
     .notes-block p {
         font-family: "Crimson Text", serif;
         font-size: 20px;
@@ -2232,11 +2230,8 @@
     }
 
     .records-welcome {
-        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
-        z-index: 9;
         height: 50px;
         margin-left: 0px;
         margin-right: 10px;
@@ -2265,11 +2260,10 @@
     }
 
     .flip-card {
-        /* margin-top: 95px; */
         perspective: 1000px;
         padding-left: 10px;
         margin-left: 20px;
-        margin-top: 10%;
+        margin-top: 8%;
     }
 
     .stack-bottom {
@@ -2349,8 +2343,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
-        z-index: 9;
         height: 100px;
         margin-left: 100px;
         margin-right: 100px;
@@ -2611,7 +2603,6 @@
     .div-banner {
         display: flex;
         flex-direction: row;
-        /* margin-bottom: 5px; */
     }
 
     .div-banner h2 {
@@ -2669,7 +2660,6 @@
     }
 
     .style-p {
-        /* width: 80%; */
         margin-left: 30px;
     }
 
@@ -2685,11 +2675,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
-        z-index: 9;
         height: 100px;
-        margin-left: 100px;
-        margin-right: 100px;
         margin-bottom: 120px;
         margin-top: 0px;
     }
@@ -2701,7 +2687,6 @@
     .stack-bottom {
         display: flex;
         z-index: -1;
-        /* margin-top: 150px; */
     }
 
 }
