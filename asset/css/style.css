@@ -1611,6 +1611,7 @@
 
     .style-img-rect {
         display: flex;
+        width: 100%
     }
 
     .styles-block {
