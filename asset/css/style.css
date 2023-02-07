@@ -225,6 +225,20 @@
         font-size: 17.5px;
     }
 
+    a.button-style {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 12px;
+        padding-right: 12px;
+        color: #fff;
+        border-radius: 30px;
+        display: inline-block;
+        border: 2px solid #fff;
+        background-color: transparent;
+        font-size: 15px;
+        font-family: "Montserrat", sans-serif;
+    }
+
     .pagination {
         display: flex;
         flex-wrap: wrap;
@@ -1086,7 +1100,7 @@
         margin-bottom: 50px;
         background-color: transparent;
         width: 230px;
-        height: 230px;	
+        height: 230px;
         margin-top: 50px;
         perspective: 1000px;
         padding-left: 5px;
@@ -1153,9 +1167,9 @@
     }
 
     .shelf2 h3 {
-        font-size: 8px; 
-        margin-left: 10px; 
-        margin-right: 10px; 
+        font-size: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
         line-height: 10px;
     }
 
@@ -1165,9 +1179,9 @@
     }
 
     .shelf3 h3 {
-        font-size: 8px; 
-        margin-left: 10px; 
-        margin-right: 10px; 
+        font-size: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
         line-height: 10px;
     }
 
@@ -1197,21 +1211,22 @@
         width: 280px;
     }
 
-    .flip-card {	
-        background-color: transparent;	
-        width: 250px;	
-        height: 100%;	
+    .flip-card {
+        background-color: transparent;
+        width: 250px;
+        height: 100%;
         margin-bottom: 5%;
-        perspective: 1000px;	
-        padding-left: 5px;	
-        margin-left: 5px;	
-        border-radius: 50%;	
+        perspective: 1000px;
+        padding-left: 5px;
+        margin-left: 5px;
+        border-radius: 50%;
     }
 
     .flip-card-inner {
         width: 100%;
         height: 100%;
-        padding-top: 100%; /* defines aspect ratio */
+        padding-top: 100%;
+        /* defines aspect ratio */
         position: relative;
         text-align: center;
         transition: transform 0.6s;
@@ -1234,7 +1249,8 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #FCB415;  /* for testing delete later */
+        /* background-color: #FCB415; */
+        /* for testing delete later */
     }
 
     .flip-card-front {
@@ -1447,7 +1463,7 @@
     }
 
     .disc-23-back {
-        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-22.png");
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-23.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -1532,7 +1548,7 @@
 
 @media screen and (min-width: 800px) {
 
-    .page.welcome .flip-card {	
+    .page.welcome .flip-card {
         margin-bottom: 230px;
         background-color: transparent;
         width: 220px;
@@ -1541,7 +1557,7 @@
         perspective: 1000px;
         padding-left: 10px;
         margin-left: 10px;
-        border-radius: 50%;	
+        border-radius: 50%;
     }
 
     .vinyl {
@@ -1569,11 +1585,11 @@
         display: block;
     }
 
-    .shelf2 h3 {	
-        font-size: 14px;	
-        margin-left: 20px; 	
-        margin-right: 20px; 	
-        line-height: 20px;	
+    .shelf2 h3 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 20px;
     }
 
     .shelf3 {
@@ -1581,11 +1597,11 @@
         display: block;
     }
 
-    .shelf3 h3 {	
-        font-size: 14px;	
-        margin-left: 20px; 	
-        margin-right: 20px; 	
-        line-height: 20px;	
+    .shelf3 h3 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 20px;
     }
 
     .style-img-square {
@@ -2294,11 +2310,11 @@
         display: none;
     }
 
-    .shelf2 h3 {	
-        font-size: 14px;	
-        margin-left: 20px; 	
-        margin-right: 20px; 	
-        line-height: 20px;	
+    .shelf2 h3 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 20px;
     }
 
     .shelf3 {
@@ -2306,11 +2322,11 @@
         display: none;
     }
 
-    .shelf3 h3 {	
-        font-size: 14px;	
-        margin-left: 20px; 	
-        margin-right: 20px; 	
-        line-height: 20px;	
+    .shelf3 h3 {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 20px;
     }
 
     .style-img-square {
