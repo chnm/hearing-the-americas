@@ -1439,6 +1439,20 @@
         background-size: cover;
     }
 
+    .disc-22-back {
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-22.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .disc-23-back {
+        background-image: url("/themes/hearing_americas/asset/img/back-spins-1/back-22.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
     .records-home {
         display: flex;
         flex-direction: row;
